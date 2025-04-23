@@ -34,7 +34,7 @@ Prvo što ćete videti kada otvorite terminal je nešto kao: ```username@hostnam
 ## Kuda dalje?
 Sledeće je potrebno razumeti kako izgleda sistem fajlova na Linux sistemu i isprobati komande za rad sa istim.
 
-[![Sledeća strana](filesystem_functions.md)]
+[![Sledeća strana](filesystem_functions.md)](./filesystem_functions.html)
 
 
 ## 🚀 Pokreni odmah u Codespaces
