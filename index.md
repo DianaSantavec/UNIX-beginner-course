@@ -5,5 +5,5 @@ Ovaj sajt je napravljen kao uvod u rad u UNIX/Linux okruženju.
 ## Lekcije
 
 - [Uvod u UNIX](unix.md)
-- [Shell i Terminal](terminal.html)
-- [Rad sa fajlovima](rad_sa_fajlovima.html)
+- [Rad sa fajlovima](filesystem_functions.html)
+- [Brža navigacija u terminalu](faster_terminal_navigation.html)
