@@ -72,7 +72,7 @@ U slučaju da korisnik nema permisije da radi sa fajlom (bilo čita, piše ili p
 
 
 
-[![Skripte](filesystem_functions.md)](./filesystem_functions.html)
+[![Skripte](scripts.md)](./scripts.html)
 
 
 ## 🚀 Pokreni odmah u Codespaces
