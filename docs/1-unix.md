@@ -39,9 +39,14 @@ Prvo što ćete videti kada otvorite terminal je nešto kao: ```username@hostnam
 ## Kuda dalje?
 Sledeće je potrebno razumeti kako izgleda sistem fajlova na Linux sistemu i isprobati komande za rad sa istim.
 
-<div class="nav-buttons">
-  <a href="../index.html" class="button-nav">← Prethodna</a>
-  <a href="2-filesystem_functions.html" class="button-nav">Sledeća →</a>
+
+<div class="nav-buttons-wrapper">
+  <div class="nav-left">
+    <a href="../index.html" class="button-nav">← Prethodna</a>
+  </div>
+  <div class="nav-right">
+    <a href="2-filesystem_functions.html" class="button-nav">Sledeća →</a>
+  </div>
 </div>
 
 [![Rad sa sistemom datoteka](filesystem_functions.md)](./filesystem_functions.html)
