@@ -16,7 +16,7 @@ Potrebno je da razumemo zapis putanje ovakvog sistema fajlova. Postoje dva tipa 
 
 Na slici se može videti gde se direktorijum `Downloads` nalazi u sistemu datoteka.
 
-![Directory structure](../assets/inicijalna_struktura_sistema_direktorijuma.svg)
+![Directory structure](../assets/diagrams/inicijalna_struktura_sistema_direktorijuma.svg)
 
 Uniks sistemi prate filozofiju "sve je fajl". Tako da komunikacija sa konektovanim uređajima se vrši preko fajlova, razni podaci o procesima su fajlovi, ali i sami direktorijumi. Na slici ispod se nalazi primer gde je direktorijum `ime` otvoren u tekstualnom editoru `vim`. Kao što može da se vidi iz strukture sistema datoteka pored, njegov sadržaj se nalazi u editoru. Jedina razlika koja postoji su dve linije `.` i `..`. Ovo su dva specijalna fajla koji su linkovi, `..` pokazuje na roditeljski direktorijum (osim za root `/` koji nema roditelja) i `.` je pokazivač na samog sebe. 
 
