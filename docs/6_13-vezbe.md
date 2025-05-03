@@ -1,14 +1,14 @@
 <link rel="stylesheet" href="/UNIX-beginner-course/assets/css/custom.css">
 
-# Vežba
+# Vežbe
 
-neka vežba
+joj
 
 <div class="nav-buttons-wrapper">
   <div class="nav-left">
-    <a href="5_3-chmod.html" class="button-nav">← Prethodna</a>
+    <a href="6_12-for.html" class="button-nav">← Prethodna</a>
   </div>
   <div class="nav-right">
-    <a href="6_1-pokretanje_vise_komandi.html" class="button-nav">Sledeća →</a>
+    <a href="7-congratulations.html" class="button-nav">Sledeća →</a>
   </div>
 </div>
