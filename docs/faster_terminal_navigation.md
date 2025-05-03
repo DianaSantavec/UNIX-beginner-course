@@ -1,3 +1,8 @@
+---
+layout: default
+title: Terminal animacija
+---
+
 # Brža navigacija u terminalu
 
 Sigurno ste primetili da nakon ovih vežbi ima mnogo više nepotrebnog teksta na terminalu. Da uklonimo taj tekst možemo da koristimo comandu `clear` ili `ctrl + l` (`comand + l` na mac sistemima). Ukolko koristite temrinal emulator (a ne, npr tty), skrolovanjem na gore ćete videti i dalje test koji je bio ispisan. Ukoliko želite i njega da uklonite, koristite komandu `reset`. 
@@ -18,48 +23,36 @@ Moguće je instalirati paket manual stranica, koji sadrže opis komande sa svim 
 Kraćoj verziji pomoći se može pristupiti kod većine komandi tako što im se prosledi opcija `-h`, npr `cd -h`.
 
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Terminal Typing Animation</title>
-  <style>
-    body {
-      background: #1e1e1e;
-      color: #00ff00;
-      font-family: monospace;
-      padding: 2rem;
-    }
-    #terminal {
-      white-space: pre;
-      font-size: 1.2rem;
-    }
-  </style>
-</head>
-<body>
-
 <div id="terminal"></div>
 
-<!-- Učitaj Typed.js biblioteku -->
+<!-- Učitaj Typed.js -->
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 
 <script>
-  new Typed("#terminal", {
-    strings: [
-      "$ ls",
-      "Documents  Downloads  file.txt",
-      "$ cd Documents",
-      "$ cat notes.txt",
-      "UNIX je moćan operativni sistem..."
-    ],
-    typeSpeed: 40,
-    backSpeed: 0,
-    showCursor: true,
-    smartBackspace: false,
-    startDelay: 500,
-    backDelay: 1000
+  document.addEventListener("DOMContentLoaded", function () {
+    new Typed("#terminal", {
+      strings: [
+        "$ ls",
+        "Documents  Downloads  file.txt",
+        "$ cd Documents",
+        "$ cat notes.txt",
+        "UNIX je moćan operativni sistem..."
+      ],
+      typeSpeed: 40,
+      showCursor: true
+    });
   });
 </script>
 
-</body>
-</html>
+<style>
+  #terminal {
+    background: #1e1e1e;
+    color: #00ff00;
+    font-family: monospace;
+    padding: 1rem;
+    white-space: pre;
+    font-size: 1rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+  }
+</style>
