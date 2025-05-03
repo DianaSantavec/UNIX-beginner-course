@@ -18,9 +18,6 @@ Ovo je jednostavna, ali dosta korisna komanda. U promptu se ne vidi ceo naziv pu
   </div>
 </div>
 
-
-<div id="terminal"></div>
-
 <script>
   const lines = [
     "user@users-laptop:$ pwd",
