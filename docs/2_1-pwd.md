@@ -19,21 +19,32 @@ Ovo je jednostavna, ali dosta korisna komanda. U promptu se ne vidi ceo naziv pu
 </div>
 
 
-
-<!-- Učitaj Typed.js -->
-<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-
 <script>
-  document.addEventListener("DOMContentLoaded", function () {
-    new Typed("#terminal", {
-      strings: [
-        "user@users-laptop:$ pwd",
+  const lines = [
+    "user@users-laptop:$ pwd",
         "/home/petar/Filmovi"
-      ],
+  ];
+
+  let currentText = "";
+  let index = 0;
+
+  function typeNextLine() {
+    if (index >= lines.length) return;
+
+    new Typed("#terminal", {
+      strings: [currentText + "\n" + lines[index]],
       typeSpeed: 40,
-      showCursor: true
+      showCursor: true,
+      smartBackspace: false,
+      onComplete: function () {
+        currentText += "\n" + lines[index];
+        index++;
+        setTimeout(typeNextLine, 500);
+      }
     });
-  });
+  }
+
+  document.addEventListener("DOMContentLoaded", typeNextLine);
 </script>
 
 <style>
@@ -46,5 +57,6 @@ Ovo je jednostavna, ali dosta korisna komanda. U promptu se ne vidi ceo naziv pu
     font-size: 1rem;
     border-radius: 5px;
     margin-top: 1rem;
+    min-height: 150px;
   }
 </style>
