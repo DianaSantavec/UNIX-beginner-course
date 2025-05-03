@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="/UNIX-beginner-course/assets/css/custom.css">
+
 ## `mkdir`
 
 ## Nazivi sa specijalnim karakterima

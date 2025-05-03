@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="/UNIX-beginner-course/assets/css/custom.css">
+
 ## Cheatsheet
 Na ovom linku se nalazi kratki cheatsheet sa ovim komandama i još nekim koje ćemo preći kasnije. Koristite ga za reference tokom rada vežbi.
 
