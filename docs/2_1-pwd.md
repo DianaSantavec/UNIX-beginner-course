@@ -19,32 +19,33 @@ Ovo je jednostavna, ali dosta korisna komanda. U promptu se ne vidi ceo naziv pu
 </div>
 
 
+<div id="terminal"></div>
+
 <script>
   const lines = [
     "user@users-laptop:$ pwd",
-        "/home/petar/Filmovi"
+    "/home/petar/Filmovi"
   ];
 
-  let currentText = "";
-  let index = 0;
+  const terminal = document.getElementById("terminal");
+  let lineIndex = 0;
 
-  function typeNextLine() {
-    if (index >= lines.length) return;
-
-    new Typed("#terminal", {
-      strings: [currentText + "\n" + lines[index]],
-      typeSpeed: 40,
-      showCursor: true,
-      smartBackspace: false,
-      onComplete: function () {
-        currentText += "\n" + lines[index];
-        index++;
-        setTimeout(typeNextLine, 500);
+  function typeLine(line, i = 0) {
+    if (i < line.length) {
+      terminal.innerHTML += line[i];
+      setTimeout(() => typeLine(line, i + 1), 40);
+    } else {
+      terminal.innerHTML += "<br>";
+      lineIndex++;
+      if (lineIndex < lines.length) {
+        setTimeout(() => typeLine(lines[lineIndex]), 500);
       }
-    });
+    }
   }
 
-  document.addEventListener("DOMContentLoaded", typeNextLine);
+  document.addEventListener("DOMContentLoaded", () => {
+    typeLine(lines[lineIndex]);
+  });
 </script>
 
 <style>
@@ -53,7 +54,7 @@ Ovo je jednostavna, ali dosta korisna komanda. U promptu se ne vidi ceo naziv pu
     color: #00ff00;
     font-family: monospace;
     padding: 1rem;
-    white-space: pre;
+    white-space: pre-wrap;
     font-size: 1rem;
     border-radius: 5px;
     margin-top: 1rem;
