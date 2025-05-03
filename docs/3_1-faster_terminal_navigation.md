@@ -18,21 +18,14 @@ Postoje i skraćenice za navigaciju u samoj liniji u terminalu. Na primer, ukoli
 
 Još jedna korisna stvar je autocomplete. Kada na primer unosite putanju, možete je autocomplete-ovati pritiskanjem tastera `tab`. Ukoliko postoji više fajlova, ili direktorijuma sa istim početkom naziva, pritisnite dva puta tab da vidite sve opcije.
 
-## Manual
-
-Moguće je instalirati paket manual stranica, koji sadrže opis komande sa svim opcijama koje ona poseduje. Ovaj paket je instaliran, te možete probati i u ovom okruženju. Otvarate ih komandom `man` i kao parametar prosleđujete naziv komande koja vas interesuje. Kao primer možete uneti `man man` da vidite manual page za samu komandu `man`. Da izađete iz iste pritisnite taster `q`.
-
-Kraćoj verziji pomoći se može pristupiti kod većine komandi tako što im se prosledi opcija `-h`, npr `cd -h`.
-
-
 <div id="terminal"></div>
 
 <div class="nav-buttons-wrapper">
   <div class="nav-left">
-    <a href="2-filesystem_functions.html" class="button-nav">← Prethodna</a>
+    <a href="2_8-vezbe.html" class="button-nav">← Prethodna</a>
   </div>
   <div class="nav-right">
-    <a href="4-working_with_files.html" class="button-nav">Sledeća →</a>
+    <a href="3_2-man.html" class="button-nav">Sledeća →</a>
   </div>
 </div>
 
