@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="/UNIX-beginner-course/assets/css/custom.css">
+
 # Pokretanje više komandi
 
 Kako je sada pređeno već više komandi, javlja se potreba da možemo da pokrećemo više komandi više puta. Da se ne bi kretali stalno kroz istoriju, ili ih ponovo unosili, možemo koristiti `;` ili `&&` da pokrenemo više komandi odjednom. Razlika između ove dve komande je u tome da li nam je potrebno da se izvrše sve komande u sekvenci ukoliko dođe do greške u jednoj od njih.
@@ -208,7 +210,14 @@ for variable in list; do
   done
 ```
 
-[![Sledeća strana](congratulations.md)](./congratulations.html)
+<div class="nav-buttons-wrapper">
+  <div class="nav-left">
+    <a href="5-permission.html" class="button-nav">← Prethodna</a>
+  </div>
+  <div class="nav-right">
+    <a href="7-congratulations" class="button-nav">Sledeća →</a>
+  </div>
+</div>
 
 ## 🚀 Pokreni odmah u Codespaces
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new/?repo=dianasantavec/UNIX-beginner-course&devcontainer_path=.devcontainer/devcontainer.json)

@@ -3,6 +3,8 @@ layout: default
 title: Uvod
 ---
 
+<link rel="stylesheet" href="/UNIX-beginner-course/assets/css/custom.css">
+
 # Uvod
 
 ## Šta je UNIX i gde je tu Linuks?
@@ -48,8 +50,6 @@ Sledeće je potrebno razumeti kako izgleda sistem fajlova na Linux sistemu i isp
     <a href="2-filesystem_functions.html" class="button-nav">Sledeća →</a>
   </div>
 </div>
-
-[![Rad sa sistemom datoteka](filesystem_functions.md)](./filesystem_functions.html)
 
 
 ## 🚀 Pokreni odmah u Codespaces

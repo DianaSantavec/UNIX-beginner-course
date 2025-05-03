@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="/UNIX-beginner-course/assets/css/custom.css">
+
 # Rad sa fajlovima
 
 ## Kreiranje fajlova bez tekstualnog editora
@@ -44,4 +46,11 @@ U slučaju velikih fajlova, zamorno je pomerati kurzor karakter po karakter. Pos
 * Isprobati kako radi copy-paste
 
 
-[![Dozvole, vlasništvo i sigurnost](permissions.md)](./permissions.html)
+<div class="nav-buttons-wrapper">
+  <div class="nav-left">
+    <a href="3-faster_terminal_navigation.html" class="button-nav">← Prethodna</a>
+  </div>
+  <div class="nav-right">
+    <a href="5-permissions.html" class="button-nav">Sledeća →</a>
+  </div>
+</div>

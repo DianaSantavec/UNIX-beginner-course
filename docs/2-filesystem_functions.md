@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="/UNIX-beginner-course/assets/css/custom.css">
+
 # Sistem datoteka u Linuksu i rad sa njim
 
 Da bi mogli da radimo sa datotekama, potrebno je da razumemo strukturu sistema datoteka. Linuks sistemi koriste EXT4 sistem datoteka i on je stablaste strukture. U korenu je takozvani ```root``` direktorijum u oznaci ```/```. On sadrži ostale direktorijume od kojih ćemo istaći:
@@ -109,3 +111,13 @@ Na ovom linku se nalazi kratki cheatsheet sa ovim komandama i još nekim koje ć
 * Obrisati oba direktorijuma jednom komandom
 
 Vežbe možete porkenuti i u [![GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new/?repo=dianasantavec/UNIX-beginner-course&devcontainer_path=.devcontainer/devcontainer.json)
+
+
+<div class="nav-buttons-wrapper">
+  <div class="nav-left">
+    <a href="1-unix.html" class="button-nav">← Prethodna</a>
+  </div>
+  <div class="nav-right">
+    <a href="3-faster_terminal_navigation.html" class="button-nav">Sledeća →</a>
+  </div>
+</div>

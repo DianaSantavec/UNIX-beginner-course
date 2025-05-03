@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="/UNIX-beginner-course/assets/css/custom.css">
+
 # Dozvole, vlasništvo i sigurnost
 
 Kada ste isprobali prvi put `ls -l` za islistavanje fajlova, primetili ste neku gomilu random karaktera (npr. `-rwxr-xr--`) na početku i tada smo rekli da su to permisije. U ovoj sekciji ćemo objasniti detaljno šta koji karakter znači i kako da ih menjate i koristite.
@@ -72,7 +74,14 @@ U slučaju da korisnik nema permisije da radi sa fajlom (bilo čita, piše ili p
 
 
 
-[![Skripte](scripts.md)](./scripts.html)
+<div class="nav-buttons-wrapper">
+  <div class="nav-left">
+    <a href="4-working_with_files.html" class="button-nav">← Prethodna</a>
+  </div>
+  <div class="nav-right">
+    <a href="6-scripts.html" class="button-nav">Sledeća →</a>
+  </div>
+</div>
 
 
 ## 🚀 Pokreni odmah u Codespaces

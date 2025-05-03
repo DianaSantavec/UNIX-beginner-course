@@ -3,6 +3,8 @@ layout: default
 title: Terminal animacija
 ---
 
+<link rel="stylesheet" href="/UNIX-beginner-course/assets/css/custom.css">
+
 # Brža navigacija u terminalu
 
 Sigurno ste primetili da nakon ovih vežbi ima mnogo više nepotrebnog teksta na terminalu. Da uklonimo taj tekst možemo da koristimo comandu `clear` ili `ctrl + l` (`comand + l` na mac sistemima). Ukolko koristite temrinal emulator (a ne, npr tty), skrolovanjem na gore ćete videti i dalje test koji je bio ispisan. Ukoliko želite i njega da uklonite, koristite komandu `reset`. 
@@ -24,6 +26,15 @@ Kraćoj verziji pomoći se može pristupiti kod većine komandi tako što im se 
 
 
 <div id="terminal"></div>
+
+<div class="nav-buttons-wrapper">
+  <div class="nav-left">
+    <a href="2-filesystem_functions.html" class="button-nav">← Prethodna</a>
+  </div>
+  <div class="nav-right">
+    <a href="4-working_with_files.html" class="button-nav">Sledeća →</a>
+  </div>
+</div>
 
 <!-- Učitaj Typed.js -->
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>

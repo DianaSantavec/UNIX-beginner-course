@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="/UNIX-beginner-course/assets/css/custom.css">
+
 <h1>🎉 Čestitke! 🎉</h1>
 <p>Ovim je završena priprema za seminar. Cheatsheet je dostupan ovde, i spremi se za interesantne vežbe sa ovim znanjem</p>
 
