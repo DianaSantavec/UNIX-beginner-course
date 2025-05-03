@@ -44,3 +44,11 @@ Ovaj sajt je napravljen kao uvod u rad u UNIX/Linux okruženju.
 }
 </style>
 
+<div class="nav-buttons-wrapper">
+  <div class="nav-left">
+    <a href="../index.html" class="button-nav">← Prethodna</a>
+  </div>
+  <div class="nav-right">
+    <a href="2-filesystem_functions.html" class="button-nav">Sledeća →</a>
+  </div>
+</div>
