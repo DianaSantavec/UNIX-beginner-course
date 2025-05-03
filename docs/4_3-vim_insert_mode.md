@@ -1,22 +1,5 @@
 <link rel="stylesheet" href="/UNIX-beginner-course/assets/css/custom.css">
 
-# Rad sa fajlovima
-
-## Kreiranje fajlova bez tekstualnog editora
-Pre nego što pređemo na upotrebu tekstualnog editora, korisno je napomenuti da se prazan fajl može napraviti i upotrebom komande `touch` i prikazati upotrebom komande `cat`. Kao parametar, obe komande primaju putanju do fajla, odnosno gde on treba da se nalazi. Primer je prikazan na slici ispod.
-
-*Napomena: komanda `cat` može i da popuni sadržaj fajla, ali to se ostavlja čitaocu da istraži*
-
-## Vim
-**Vim** (VI Improved) je tekstualni editor koji se koristi iz konzolne linije. Postoji i starija verzija `vi`, koja je dostupna bez dodatnih instalacija na sistemima. Komunikaciju sa ovim editorom bez upotrebe miša omogućavaju dva mode-a u kojima radi: command mode i insert mode.
-
-### Command mode
-Ovaj mode nam omogućava da izvršavamo tekstualne komande nad tekstom (odnosno fajlom). Neke osnovne komande koje će nam trebati su *undo*, *save*, *quit*, *copy - paste* i pomeranje kurzora.
-
-Onog trenutka kada pokrenete `vim` (unošenjem komande `vim` bez parametara u konzolu), pojaviće se prozor prikazan na slici ispod. Po default-u, `vim` je pokrenut u command mode-u i možemo probati da unesemo prvu komandu. Za tekstualne komande, potrebno je uneti `:` i potom tekst komande. Na primer, za pomoć, unosimo `:help` (pojavljuje se prompt u donjem levom uglu dok kucamo) i kada pritisnemo `enter` dobićemo pomoć. Da izađemo iz ovog prozora potrebno je da unesemo `:quit` (skraćeno `:q`) i vratićemo se na početni prozor. Ukoliko želimo da napustimo editor, potrebno je ponovo uneti komandu `:quit`.
-
-Ako se vratimo u `vim`, možemo primetiti da svaka linija, osnim one u kojoj je kurzor, počinje sa `~`. To je oznaka da ta linija ne postoji zaista u fajlu, čak nema ni prazan red tu.
-
 ### Insert mode
 Da bi ostale komande imale smisla, potrebno je da unesemo neki tekst. Da bi se prebacili u **insert mode** potrebno je da unesemo karakter `i` (insert) ili `a` (append) (**bez `:`**) i u donjem levom uglu će se pojaviti tekst `-- INSERT --`. Sada sve što unosimo se pojavljuje u našem editoru i postaje sadržaj fajla. Kada završimo sa kucanjem teksta, potrebno je da se vratimo u **command mode** da bi mogli da ga snimimo, ili da uradimo `undo` ili bilo koju drugu radnju. Insert mode napuštamo pritiskom na dugme `esc` i tada možete primetiti da je nestao `-- INSERT --` iz donjeg levog ugla. Ukoliko želite da uradite `undo`, potrebno je sada u **command mode-u** uneti `:undo` i videćete promene. 
 
@@ -42,15 +25,12 @@ U slučaju velikih fajlova, zamorno je pomerati kurzor karakter po karakter. Pos
 
 (*Napomena: ne očekuje se za predavanje da znate komande napamet, korisno je i mogu vam pomoći u vežbama da se naviknete na rad sa ovim editorom.*)
 
-## Vežba
-* Isprobati kako radi copy-paste
-
 
 <div class="nav-buttons-wrapper">
   <div class="nav-left">
-    <a href="3-faster_terminal_navigation.html" class="button-nav">← Prethodna</a>
+    <a href="4_2-vim.html" class="button-nav">← Prethodna</a>
   </div>
   <div class="nav-right">
-    <a href="5-permissions.html" class="button-nav">Sledeća →</a>
+    <a href="4_4-vezbe.html" class="button-nav">Sledeća →</a>
   </div>
 </div>
