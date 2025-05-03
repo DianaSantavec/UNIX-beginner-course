@@ -16,3 +16,50 @@ Još jedna korisna stvar je autocomplete. Kada na primer unosite putanju, možet
 Moguće je instalirati paket manual stranica, koji sadrže opis komande sa svim opcijama koje ona poseduje. Ovaj paket je instaliran, te možete probati i u ovom okruženju. Otvarate ih komandom `man` i kao parametar prosleđujete naziv komande koja vas interesuje. Kao primer možete uneti `man man` da vidite manual page za samu komandu `man`. Da izađete iz iste pritisnite taster `q`.
 
 Kraćoj verziji pomoći se može pristupiti kod većine komandi tako što im se prosledi opcija `-h`, npr `cd -h`.
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Terminal Typing Animation</title>
+  <style>
+    body {
+      background: #1e1e1e;
+      color: #00ff00;
+      font-family: monospace;
+      padding: 2rem;
+    }
+    #terminal {
+      white-space: pre;
+      font-size: 1.2rem;
+    }
+  </style>
+</head>
+<body>
+
+<div id="terminal"></div>
+
+<!-- Učitaj Typed.js biblioteku -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+<script>
+  new Typed("#terminal", {
+    strings: [
+      "$ ls",
+      "Documents  Downloads  file.txt",
+      "$ cd Documents",
+      "$ cat notes.txt",
+      "UNIX je moćan operativni sistem..."
+    ],
+    typeSpeed: 40,
+    backSpeed: 0,
+    showCursor: true,
+    smartBackspace: false,
+    startDelay: 500,
+    backDelay: 1000
+  });
+</script>
+
+</body>
+</html>
