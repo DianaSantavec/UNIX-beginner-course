@@ -25,6 +25,6 @@ echo -e Hello \t world
     <a href="6_2-pisanje_prazne_skripte.html" class="button-nav">← Prethodna</a>
   </div>
   <div class="nav-right">
-    <a href="6_4-promena_direktorijuma.md" class="button-nav">Sledeća →</a>
+    <a href="6_4-promena_direktorijuma.html" class="button-nav">Sledeća →</a>
   </div>
 </div>

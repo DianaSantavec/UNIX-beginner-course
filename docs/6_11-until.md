@@ -16,6 +16,6 @@ Probaj sada da ponovo napišeš skriptu koja će 5 puta ispisati `hello` na ekra
     <a href="6_10-while.html" class="button-nav">← Prethodna</a>
   </div>
   <div class="nav-right">
-    <a href="6_11-until.html" class="button-nav">Sledeća →</a>
+    <a href="6_12-for.html" class="button-nav">Sledeća →</a>
   </div>
 </div>

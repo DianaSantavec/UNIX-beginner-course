@@ -33,6 +33,6 @@ U slučaju da korisnik nema permisije da radi sa fajlom (bilo čita, piše ili p
     <a href="5_2-permisije_razjasnjene.html" class="button-nav">← Prethodna</a>
   </div>
   <div class="nav-right">
-    <a href="5_4-vezbe.html" class="button-nav">Sledeća →</a>
+    <a href="5_4-permisije_vezbe.html" class="button-nav">Sledeća →</a>
   </div>
 </div>
