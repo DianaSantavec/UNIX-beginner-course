@@ -43,8 +43,172 @@ echo -e Hello \t world
 ```chmod +x skripta.sh ; ./skripta.sh```
 
 ## Promena direktorijuma
+Promena direktorijuma u skripti je moguća upotrebom `cd` komande koju koristimo i inače u terminalu.
+
+Druga opcija je da se koriste `pushd` i `popd` komande. One funkcionišu kao stack, odnosno `pushd` dodaje direktorijum na stack i `popd` uklanja, kao što je prikazano na slici. Tako je lakše da se vrati u direktorijum u kom smo bili.
 
 
+## Parametri
+Kao što sve komande koje smo koristili primaju parametre, tako možemo proslediti parametre i našim skriptama. Radi se na isti način kao i kod komandi, razdvojene razmakom ih upisujemo nakon naziva skripte. Kada želimo da im pristupimo koristimo `$n` gde je `n` redni broj parametra. `$0` je sam naziv skripte, `$1` je prvi parametar, itd. Ukoliko nas interesuje koliko je parametara ukupno prosleđeno, to možemo dobiti sa `$#`. Sve parametre (bez naziva skripte), možemo dobiti i u obliku liste sa `$@`.
+
+Primer, ukoliko želimo da ispišemo prvi parametar skipte, naša skripta bi izgledala ovako:
+
+```bash
+#!/bin/bash
+echo Prvi parametar je: $1
+```
+I pokrenuli bi skriptu sa `./ispis_parametra.sh zbunjen`
+
+
+### Varijable
+Način definisanja varijabli je jednostavan, za početak ne piše se tip varijable. Potrebno je samo napisati ime varijable i dodeliti joj vrednost, na primer `ime="Petar"`. Bitno je napomenuti da se **ne** piše razmak oko znaka jednakosti, u suprotnom će vratiti grešku da komanda `ime varijable` nije pronađena, kao što je prikazano na slici ispod.
+
+Bitno je napomenuti da postoje sistemske varijable. Konvencija je da se pišu svim velikim slovima i neke poznate su:
+  * `USER` - trenutni korisnik
+  * `HOME` - putanja do kućnog direktorijuma trenutnog korisnika
+  * `PATH` - lista direktorijuma u kojima se traže izvršne datoteke
+
+Vrednostima svih varijabli se pristupa upotrebom `$`, tako i ovim sistemskim. Ukoliko ispišete `echo $USER` videćete svoje korisničko ime. 
+
+### Učitavaje vrednosti od korisnika
+Nije jedini način prosleđivanja ulaznih podataka preko parametara. Komanda `read` nam omogućava da prikupimo ulaz od korisnika. Kao parametri, komandi se prosleđuje jedno ili više imena varijabli u koje treba da smesti vrednost. Ukoliko se prosledi samo jedna varijabla, sav unos do prvok `enter` će biti smešten u jednu varijablu, bez obzira da li je unet neki razmak bez navnodnika. Ukoliko se prosledi više od jedne varijable, ulaz će biti podeljen po razmacima, primeri su dati ispod.
+Od opcija, ima dve interesantne `-p` i -`s`. 
+  * `-p` nam omogućava da u istoj liniji damo i ispis za korisnika, bez da koristimo i `echo` komandu. Npr. `read -p 'Unesite korisničko ime': var_ime`
+  * `-s` služi kada se unosi šifra. Ukoliko ste imali potrebu do sada da unosite svoju šifru u terminlu, verovatno ste primetili da se ništa ne ispisuje, čak ni *. Ukoliko želite takav unos, prosledite ovaj parametar, npr `read -s -p 'Unesite šifru: ' var_password` i nakon pritiska `enter` unos će biti sačuvan u varijabli.
+
+
+### Osnovne aritmetičke operacije
+Sintaksa za aritmetičke operacije i čuvanje njihovih vrednosti je malo komplikovanija. Same oznake aritmethičkih operacija su iste, odnosno +,-,*,/,%. Problem dolazi u upotrebi razmaka u zapisu. Bitno je odmah razumeti da je `[` zapravo komanda i iz tog razloga je neophodno voditi računa kada se sme uneti razmak, a kada ne, za razliku od većine programskih jezika.
+Sada ćemo proći kroz razne primere ovih kombinacija:
+
+1. `sum=$((1+2))`
+Ovo je ispravan način i govori nam da se u varijablu `sum` upisuje **vrednost izraza** 1+2
+
+2. `sum=$(( 1 + 2 ))`
+I ovo je ispravan način. Unutar dvostruke zagrade možemo da unosimo razmak kako nam se više sviđa i kako je nama pregledno
+
+3. `sum = $(( 1 + 2 ))` ili `sum= $(( 1 + 2 ))` ili `sum=$ ((1 + 2))`
+Ovo su neispravni zapisi i dobićete grešku da komanda ne postoji. U Zavisnosti od zapisa biće ili `syntax error near unexpected token '('` ili `command not found`
+
+Sada možemo da koristimo i naše varijable. Ukoliko znamo da imamo broj u varijabli, možemo pristupiti vrednosti upotrebom `$`. Npr. program za sabiranje dva broj koja unosi korisnik bi izgledao ovako.
+
+```bash
+#!/bin/bash
+
+read -p "Unesi prvi sabirak: " prvi
+read -p "Unesi drugi sabirak: " drugi
+sum=$(( $prvi + $drugi ))
+echo "Suma sabiraka $prvi i $drugi je $sum"
+```
+
+Isprobavanjem možete primetiti da će ulaz biti prihvaćen bilo koji, ali ukoliko nije prosleđen broj, ponašaće se neočekivano, ili će izbaciti grešku. Kontrola unosa, ostaje na programeru da vodi računa.
+
+#### Zadatak
+* Probaj da napišeš skriptu koja će sabrati dva prosleđena parametra
+
+### Kontrola toka
+Za kontrolu toka programa se koristi komanda `if`, kao što ste već i sretali. Ono što je neobično jeste da se operatori `>`, `<`, `==` koriste za poređenje stringova. Za brojeve se koriste opcije:
+  * `-gt` - greather then
+  * `-lt` - less then
+  * `-ge` - greater or equal
+  * `-le` - less or equal
+  * `-eq` - equal
+  * `-ne` - not equal
+
+Sintaksa ima sličan problem kao i aritmetičke operacije, jako je bitno kada i gde se unose razmaci, primer ispravne sintakse je sledeći:
+```bash
+#!/bin/bash
+
+var=10
+
+if [[ var -gt 5 ]]
+then
+    echo veca je vrednost od 5
+elif [[ var -eq 5 ]]
+then
+    echo vrednost je 5
+else
+    echo vrednost je manja od 5
+fi
+```
+Sada možemo preći nekoliko bitnih stvari. Prvo, unutar `[[` nije neophodno pisati `$varijabla`, već je dovoljno proslediti sam naziv (voditi računa o stringovima). Druga bitna stvar je da `if` nema vitičaste zagrade, ili indetaciju, već sve izmeću `then` i `elif` ili `else` ili `fi` potpada pod izraz. `else if` je skraćeno u `elif` i isto ima `then` za početak bloka. `else` nema then i pruža se do kraja `if` izraza koji se označava sa `fi`.
+
+Okej, ovo je puno novih pravila u dve rečenice, probaj samostalno da napišeš skriptu koja će očitati unos korisnika i proveriti da li je korisnik uneo broj 1. Kada ovo savladaš, petlje neće biti problem.
+
+### Petlje
+Postoje tri tipa petlji `while`, `until` i `for`. Pomaže da je sintakse liče i jedna na drugu i na `if`, tako da hajde da krenemo.
+
+#### `while`
+Prosto, izvršava se dok je uslov **ispunjen**. Za razliku od `if`, početak bloka se označava sa `do` i kraj sa `done`. Ovako bi izgledao jedan `while` blok:
+
+```bash
+while [[ uslov ]]
+do
+    echo hello
+done
+```
+
+Probaj da napišeš skriptu koja će 5 puta ispisati `hello` na ekran.
+
+#### `until`
+Izvršava se dok se uslov **ne ispuni** (više liči na do-while kod programskih jezika). Sintaksa je veoma slična:
+```bash
+until [[ uslov ]]
+do
+    echo hello
+done
+```
+
+Probaj sada da ponovo napišeš skriptu koja će 5 puta ispisati `hello` na ekran, ali upotrebnom `until` komande.
+
+#### `for`
+
+`for` petlja je malo interesantnija, jer ima dva načina zapisa, klasičan bash stil i c stil.
+
+##### `for` bash style
+U bash stilu malo odskače od prethodnih petlji sa razlikom da nema zagrade oko uslova:
+
+```bash
+for variable in 1 2 3 .. 5
+do
+    echo "hello $variable"
+done
+```
+
+`..` se koristi da dopuni niz po pravilu po kom su dati prethodni brojevi. Može se napraviti i lista neparnih brojeva sa `1 3 5 .. 13`. Postoji i kraći zapis za oblasti, npr `{1..5}`.
+
+Upotreba `for` petlje je praktična i kada želimo da iteriramo kroz listu parametara (`$@`). Evo primer kako možemo ispisati sve parametre koji su prosleđeni skripti.
+
+```bash
+#!/bin/bash
+
+for parametar in $@
+do
+  echo -n "$parametar "
+  # navodnici su dodati zbog razmaka radi citljivosti
+done
+```
+
+Probaj da napišeš `for` petlju koja će sabrati sve parametre prosleđene skripti.
+
+##### `for` c style
+U ovom slučaju se uslov bukvalno piše kao i u programskom jeziku C, sa razlikom da se koriste dvostruke zagrade:
+
+```bash
+for (( i = 0; i < 10; i++ )); do
+    echo $i
+  done
+```
+
+*Bonus: Kod `if`, `while`, `until` i `for` je praktično koristiti i `;` umesto da se `do` (odnosno `then`) upisuje u novi red. Pošto su to isto komande, kompaktniji i ispravan zapis je i ovaj:*
+
+```bash
+for variable in list; do
+    echo $variable
+  done
+```
+
+[![Sledeća strana](congratulations.md)](./congratulations.html)
 
 ## 🚀 Pokreni odmah u Codespaces
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new/?repo=dianasantavec/UNIX-beginner-course&devcontainer_path=.devcontainer/devcontainer.json)
