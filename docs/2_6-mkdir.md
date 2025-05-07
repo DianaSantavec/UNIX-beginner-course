@@ -9,25 +9,29 @@ title: Rad sa sistemom datoteka
   <a href="/UNIX-beginner-course/" class="button-nav">⟵ Nazad na početak</a>
 </div>
 
-## Kreiranje direktorijuma - `mkdir`
-
-## Nazivi sa specijalnim karakterima
-
-Ovde treba prvo opisati mkdir komandu sa opcijom -p i da napravimo direktorijum za nas film
+# Kreiranje direktorijuma - mkdir
 
 ![mkdir figure](../assets/diagrams/mkdir_figure.png)
+
+`mkdir` je jednostavna komanda koja pravi direktorijum na željenoj putanji. Kao parametar se prosleđuje putanja koja na kraju sadrži naziv direktorijuma koji pravimo. Ukoliko se navede samo naziv direktorijuma, biće napravljen u trenutnom direktorijumu. Jedina bitna stvar je da, ukoliko ne postoji prosleđena putanja (odnosno nedostaje neki direktorijum), neće se izvršiti.
+
+Međutim, ukoliko želimo da napravimo sve direktorijume koji nedostaju u naškoj putanji, to možemo uraditi tako što prosledimo opciju `-p`. Sa ovom opcijom, `mkdir` će napraviti sve roditeljske direktorijume koji nedostaju.
+
+Primer upotrebe `mkdir` komande se može videti u terminalu, a kako se to odražava na sistem direktorijuma se vidi na slici ispod.
 
 <div id="terminal"></div>
 
 ![mkdir diagram](../assets/diagrams/mkdir_diagram.svg)
 
-Sada je vreme da pokrijemo i ovaj segment, kako da koristimo neke specijalne karaktere u nazivima naših direktorijuma i fajlova. Verovatno već znate, da na Windows sistemu ne možete sve karaktere da koristite za nazive direktorijuma (`<`, `>`, `:`, `"`, `/`, `\`, `|`, `?`, `*`). Slična situacija je i sa UNIX sistemima, samo je lista malo duža, te obuhvata i ` ` (razmak, ili tab), `$`, `&`, `+`, itd. Razlog za to je što ti karakteri imaju specijalnu namenu. Kasnije na predavanju će biti objašnjeno kako se mogu koristiti (ili se ostavlja čitaocu za istraživanje), a sada će se preći kako da koristimo ove specijalne karaktere u nazivu direktorijuma (ili fajla) kada ga pravimo iz temrinala.
+# Nazivi sa specijalnim karakterima
 
-Ukoliko želimo da tretiramo specijalne karaktere kao obične, potrebno je staviti `\` ispred njih (to važi i za upotrebu specijalnog kraktera `\`). Tako da ukoliko direktorijum želimo da nazovemo "UNIX vezbe", `mkdir` komanda bi izgledala ovako `mkdir "UNIX\ vezbe` ili `mkdir /home/user/Petnica-rac/UNIX\ vezbe`. Isto važi ukoliko želimo da nazovemo direktorijum `Ovo"je?naziv`, komanda bi izgledala ovako `mkdir Ovo\"je\?naziv`. Ukoliko unesemo samo `mkdir UNIX vezbe`, dobićemo dva direktorijuma. Primeri se mogu videti na slici ispod, a čitaocu se ostavlja da isproba i druge specijalne karaktere.
+Sada je vreme da pokrijemo i ovaj segment, kako da koristimo neke specijalne karaktere u nazivima naših direktorijuma i fajlova. Verovatno već znate, da na Windows sistemu ne možete sve karaktere da koristite za nazive direktorijuma (`<`, `>`, `:`, `"`, `/`, `\`, `|`, `?`, `*`). Slična situacija je i sa UNIX sistemima, samo je lista malo duža, te obuhvata i `\t` (razmak, ili tab), `$`, `&`, `+`, itd. Razlog za to je što ti karakteri imaju specijalnu namenu. Kasnije na predavanju uživo će biti objašnjeno kako se mogu koristiti (ili se ostavlja čitaocu za istraživanje), a sada će se preći kako da koristimo ove specijalne karaktere u nazivu direktorijuma (ili fajla) kada ga pravimo iz temrinala.
 
-Za većinu karaktera, situacija može biti prostija (osim za `\`, `"`, `'`). Ukoliko naziv direktorijuma stavimo pod navodnike, specijalne karaktere obuhvaćene njima će tumačiti kao obične karaktere. Ponovo, ukoliko direktorijum želimo da nazovemo "UNIX vezbe", `mkdir` komanda bi izgledala ovako `mkdir "UNIX vezbe` ili `mkdir "/home/user/Petnica-rac/UNIX vezbe"`. Bitno je primetiti da se cela putanja stavlja pod navodnike, ne samo sporni direktorijum (*u većini slučajeva bi radilo i da se samo sporni direktorijum stavi pod navnodnike, ali se ne praktikuje taj pristup*).
+Ukoliko želimo da tretiramo specijalne karaktere kao obične, potrebno je staviti `\` ispred njih (to važi i za upotrebu specijalnog kraktera `\`). Tako da ukoliko direktorijum želimo da nazovemo "UNIX vezbe", `mkdir` komanda bi izgledala ovako `mkdir "UNIX\ vezbe` ili `mkdir -p /home/user/Petnica-rac/UNIX\ vezbe`. Isto važi ukoliko želimo da nazovemo direktorijum `Ovo"je?naziv`, komanda bi izgledala ovako `mkdir Ovo\"je\?naziv`. Ukoliko unesemo samo `mkdir UNIX vezbe`, dobićemo dva direktorijuma. Primeri se mogu videti na slici ispod, a čitaocu se ostavlja da isproba i druge specijalne karaktere.
 
-Ovde nedostaje screenshot ovih kombinacija sa specijalnim karakterima
+Za većinu karaktera, situacija može biti prostija (osim za `\`, `"`, `'`). Ukoliko naziv direktorijuma stavimo pod navodnike, specijalne karaktere obuhvaćene njima će tumačiti kao obične karaktere. Ponovo, ukoliko direktorijum želimo da nazovemo "UNIX vezbe", `mkdir` komanda bi izgledala ovako `mkdir "UNIX vezbe` ili `mkdir "/home/user/Petnica-rac/UNIX vezbe"`.
+
+![nazivi sa specijalnim karakterima](../assets/diagrams/nazivi_sa_specijalnim_karakterima.png)
 
 <div class="nav-buttons-wrapper">
   <div class="nav-left">

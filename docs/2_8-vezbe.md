@@ -9,20 +9,20 @@ title: Rad sa sistemom datoteka
   <a href="/UNIX-beginner-course/" class="button-nav">⟵ Nazad na početak</a>
 </div>
 
-## Cheatsheet
-Na ovom linku se nalazi kratki cheatsheet sa ovim komandama i još nekim koje ćemo preći kasnije. Koristite ga za reference tokom rada vežbi.
+# Cheatsheet
+Na ![ovom linku](../assets/cheat_sheet.pdf) se nalazi kratki cheat sheet sa ovim komandama i još nekim koje ćemo preći kasnije. Koristite ga za reference tokom rada vežbi.
 
-
-## Primer za vežbu
+# Vežba
 
 * Napraviti direktorijum `Hello World`
 * Ući u nov direktorijum
 * Napraviti poddirektorijum `poddirektorijum`
 * Izlistati roditeljski direktorijum
 * Izlistati roditeljski direktorijum sa sakrivenim fajlovima
-* Obrisati oba direktorijuma jednom komandom
+* Preimenovati `Hello World` u `Hello_world`
+* Obrisati oba direktorijuma jednom komandom (*Napomena: nemoj zaboraviti da napustiš direktorijum pre brisanja*)
 
-Vežbe možete porkenuti i u [![GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new/?repo=dianasantavec/UNIX-beginner-course&devcontainer_path=.devcontainer/devcontainer.json)
+Vežbe možete porkenuti u [![GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new/?repo=dianasantavec/UNIX-beginner-course&devcontainer_path=.devcontainer/devcontainer.json).
 
 
 <div class="nav-buttons-wrapper">

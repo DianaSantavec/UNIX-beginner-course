@@ -9,7 +9,7 @@ title: Rad sa sistemom datoteka
   <a href="/UNIX-beginner-course/" class="button-nav">⟵ Nazad na početak</a>
 </div>
 
-# Ispis trenutne putanje - <code>pwd</code>
+# Ispis trenutne putanje - pwd
 
 ![Lost](../assets/diagrams/lost_figure.png)
 
@@ -18,6 +18,8 @@ Ovo je jednostavna, ali dosta korisna komanda. U promptu se ne vidi ceo naziv pu
 Primer ispisa se nalazi u prikazu terminala, a struktura sistema direktorijuma na slici. 
 
 <div id="terminal"></div>
+
+![pwd_figure](../assets/diagrams/pwd_figure.svg)
 
 
 <div class="nav-buttons-wrapper">
