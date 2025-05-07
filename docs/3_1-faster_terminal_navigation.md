@@ -7,6 +7,8 @@ title: Terminal animacija
 
 # Brža navigacija u terminalu
 
+![Brza navigacija figura](../assets/diagrams/fast_terminal_navigation_figure.png)
+
 Sigurno ste primetili da nakon ovih vežbi ima mnogo više nepotrebnog teksta na terminalu. Da uklonimo taj tekst možemo da koristimo comandu `clear` ili `ctrl + l` (`comand + l` na mac sistemima). Ukolko koristite temrinal emulator (a ne, npr tty), skrolovanjem na gore ćete videti i dalje test koji je bio ispisan. Ukoliko želite i njega da uklonite, koristite komandu `reset`. 
 
 *Napomena: ova komanda nema veze sa resetovanjem sistema, za to se koristi `reboot`.*

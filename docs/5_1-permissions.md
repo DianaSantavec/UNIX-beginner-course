@@ -2,6 +2,8 @@
 
 # Dozvole, vlasništvo i sigurnost
 
+![rwx figures](../assets/diagrams/rwx_figure.png)
+
 Kada ste isprobali prvi put `ls -l` za islistavanje fajlova, primetili ste neku gomilu random karaktera (npr. `-rwxr-xr--`) na početku i tada smo rekli da su to permisije. U ovoj sekciji ćemo objasniti detaljno šta koji karakter znači i kako da ih menjate i koristite.
 
 ## Značenje skraćenica

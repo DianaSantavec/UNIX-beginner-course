@@ -21,6 +21,6 @@ Vežbe možete porkenuti i u [![GitHub Codespaces](https://github.com/codespaces
     <a href="2_7-mv.html" class="button-nav">← Prethodna</a>
   </div>
   <div class="nav-right">
-    <a href="3-faster_terminal_navigation.html" class="button-nav">Sledeća →</a>
+    <a href="3_1-faster_terminal_navigation.html" class="button-nav">Sledeća →</a>
   </div>
 </div>

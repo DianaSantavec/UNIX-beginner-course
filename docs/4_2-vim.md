@@ -2,6 +2,8 @@
 
 ## Vim
 
+![vim figure](../assets/diagrams/vim_figure.png)
+
 **Vim** (VI Improved) je tekstualni editor koji se koristi iz konzolne linije. Postoji i starija verzija `vi`, koja je dostupna bez dodatnih instalacija na sistemima. Komunikaciju sa ovim editorom bez upotrebe miša omogućavaju dva mode-a u kojima radi: command mode i insert mode.
 
 ### Command mode

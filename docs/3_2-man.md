@@ -2,6 +2,8 @@
 
 ## Manual
 
+![man figure](../assets/diagrams/manual_figure.png)
+
 Moguće je instalirati paket manual stranica, koji sadrže opis komande sa svim opcijama koje ona poseduje. Ovaj paket je instaliran, te možete probati i u ovom okruženju. Otvarate ih komandom `man` i kao parametar prosleđujete naziv komande koja vas interesuje. Kao primer možete uneti `man man` da vidite manual page za samu komandu `man`. Da izađete iz iste pritisnite taster `q`.
 
 Kraćoj verziji pomoći se može pristupiti kod većine komandi tako što im se prosledi opcija `-h`, npr `cd -h`.

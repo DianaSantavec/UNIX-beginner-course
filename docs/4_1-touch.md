@@ -2,6 +2,8 @@
 
 # Rad sa fajlovima
 
+![touch figure](../assets/diagrams/touch_figure.png)
+
 ## Kreiranje fajlova bez tekstualnog editora
 Pre nego što pređemo na upotrebu tekstualnog editora, korisno je napomenuti da se prazan fajl može napraviti i upotrebom komande `touch` i prikazati upotrebom komande `cat`. Kao parametar, obe komande primaju putanju do fajla, odnosno gde on treba da se nalazi. Primer je prikazan na slici ispod.
 

@@ -1,10 +1,10 @@
 <link rel="stylesheet" href="/UNIX-beginner-course/assets/css/custom.css">
 
-## `mkdir`
+## Kreiranje direktorijuma - `mkdir`
 
 ## Nazivi sa specijalnim karakterima
 
-ovde treba prvo opisati mkdir komandu sa opcijom -p i da napravimo direktorijum za nas film
+Ovde treba prvo opisati mkdir komandu sa opcijom -p i da napravimo direktorijum za nas film
 
 ![mkdir figure](../assets/diagrams/mkdir_figure.png)
 

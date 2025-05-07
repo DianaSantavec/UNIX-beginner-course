@@ -1,10 +1,12 @@
 <link rel="stylesheet" href="/UNIX-beginner-course/assets/css/custom.css">
 
-## `pwd`
+# Ispis trenutne putanje - `pwd`
 
 ![Lost](../assets/diagrams/lost_figure.png)
 
-Ovo je jednostavna, ali dosta korisna komanda. U promptu se ne vidi ceo naziv putanje na kojoj se nalazimo. U zavisnosti od konfiguracije, može se menjati, ali nije praktično da stalno stoji cela putanja ispisana, te se često skraćuje da se vide samo prva slova svakako direktorijuma, ili čak da se vidi samo naziv trenutnog. U toku rada, može se desiti da se "izgubimo" i nam treba apsolutna putanja do mesta na kom se nalazimo i za to koristimo komandu `pwd`. Primer ispisa se nalazi na slici. Nije potrebno prosleđivati nikakve opcije za ovu potrebu, iako dodatne postoje neće biti pokrivene ovim kratkim tutorijalom.
+Ovo je jednostavna, ali dosta korisna komanda. U promptu se ne vidi ceo naziv putanje na kojoj se nalazimo. U zavisnosti od konfiguracije, može se menjati, ali nije praktično da stalno stoji cela putanja ispisana, te se često skraćuje da se vide samo prva slova svakog direktorijuma, ili čak da se vidi samo naziv trenutnog. U toku rada, može se desiti da se "izgubimo" i da nam treba apsolutna putanja do mesta na kom se nalazimo. Za ovo potrebe koristimo komandu `pwd`. Nije potrebno prosleđivati nikakve opcije za ovu potrebu, iako one postoje, neće biti pokrivene ovim kratkim tutorijalom.
+
+Primer ispisa se nalazi u prikazu terminala, a struktura sistema direktorijuma na slici. 
 
 <div id="terminal"></div>
 

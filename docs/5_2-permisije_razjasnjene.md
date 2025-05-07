@@ -2,6 +2,8 @@
 
 ## `-rwxr-xr--`
 
+![owner figure](../assets/diagrams/owner_figure.png)
+
 Prvo je bitno primetiti da ovaj zapis uvek ima 10 karaktera, koji se mogu podeliti u 4 sekcije, kao što je prikazano na slici ispod. 
 
 Prvi karakter nam govori kakav fajl je u pitanju (jer je "sve fajl" po UNIX filozofiji). Najčešće opcije su:
