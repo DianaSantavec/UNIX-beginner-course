@@ -1,5 +1,9 @@
 <link rel="stylesheet" href="/UNIX-beginner-course/assets/css/custom.css">
 
+<div style="margin-bottom: 1em;">
+  <a href="/UNIX-beginner-course/" class="button-nav">⟵ Nazad na početak</a>
+</div>
+
 ### Učitavaje vrednosti od korisnika - `read`
 Sada kada znamo kako da sačuvamo vrednosti u varijable, potrebno je da vidimo kako možemo da učitamo vrednosti od korisnika, a da ne prosleđujemo ulaz kao parametar. Komanda `read` nam omogućava da prikupimo ulaz od korisnika. Ovaj komandi se kao parametri prosleđuju imena varijabli u koje treba da smesti vrednost. Ukoliko se prosledi samo jedna varijabla, sav unos do prvog pritiska tastera `enter` će biti smešten u jednu varijablu, bez obzira da li je unet neki razmak (iako se ne stave navodnici). Ukoliko se prosledi više od jedne varijable, ulaz će biti podeljen po razmacima. Kako ovo izgleda u praksi se može videti na primerima na slici ispod.
 Od opcija, ova komanda ima dve interesantne: `-p` i -`s`. 

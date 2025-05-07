@@ -1,5 +1,9 @@
 <link rel="stylesheet" href="/UNIX-beginner-course/assets/css/custom.css">
 
+<div style="margin-bottom: 1em;">
+  <a href="/UNIX-beginner-course/" class="button-nav">⟵ Nazad na početak</a>
+</div>
+
 ### Petlje
 Poslednja bitna i fundamentalna stvar kod skripti su petlje. Postoje tri tipa petlji `while`, `until` i `for`, kao što smo sretali i u drugim programskim jezicima. Olakšavajuće je to da sintakse liče i jedna na drugu i na sintaksom `if` komande koju smo upoznali. Prva petlja koju ćemo preći je ... `while`.
 

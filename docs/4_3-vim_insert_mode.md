@@ -1,5 +1,9 @@
 <link rel="stylesheet" href="/UNIX-beginner-course/assets/css/custom.css">
 
+<div style="margin-bottom: 1em;">
+  <a href="/UNIX-beginner-course/" class="button-nav">⟵ Nazad na početak</a>
+</div>
+
 ### Insert mode
 Da bi ostale komande imale smisla, potrebno je da unesemo neki tekst. Da bi se prebacili u **insert mode** potrebno je da unesemo karakter `i` (insert) ili `a` (append) (**bez `:`**) i u donjem levom uglu će se pojaviti tekst `-- INSERT --`. Sada sve što unosimo se pojavljuje u našem editoru i postaje sadržaj fajla. Kada završimo sa kucanjem teksta, potrebno je da se vratimo u **command mode** da bi mogli da ga snimimo, ili da uradimo `undo` ili bilo koju drugu radnju. Insert mode napuštamo pritiskom na dugme `esc` i tada možete primetiti da je nestao `-- INSERT --` iz donjeg levog ugla. Ukoliko želite da uradite `undo`, potrebno je sada u **command mode-u** uneti `:undo` i videćete promene. 
 

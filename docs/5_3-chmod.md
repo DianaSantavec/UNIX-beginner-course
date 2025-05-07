@@ -1,5 +1,9 @@
 <link rel="stylesheet" href="/UNIX-beginner-course/assets/css/custom.css">
 
+<div style="margin-bottom: 1em;">
+  <a href="/UNIX-beginner-course/" class="button-nav">⟵ Nazad na početak</a>
+</div>
+
 ## Promena dozvola
 Sada kada znamo šta znače, potrebno je preći i kako možemo da ih menjamo i koristimo. Komanda za promenu dozvola je `chmod` (CHange file MODe bits). Kada se menjaju permisije, potrebno je dati odgvor na 3 pitanja:
   * *Kome* (*whom*) menjamo permisiju?

@@ -1,5 +1,9 @@
 <link rel="stylesheet" href="/UNIX-beginner-course/assets/css/custom.css">
 
+<div style="margin-bottom: 1em;">
+  <a href="/UNIX-beginner-course/" class="button-nav">⟵ Nazad na početak</a>
+</div>
+
 # Skripte
 Skripta je tekstualni fajl koji sadrži komande koje će se izvršavati redom. Svaka linija se ponaša isto kao da smo je zapisali u terminalu. Komentari se označavaju sa `#`, osim u slučaju prve linije u fajlu. Kako smo rekli da je po UNIX filozofiji "sve fajl", mora postojati način da mu objasnimo da je u pitanju skripta, a ne recept za kolače. Ovo radimo tako što u prvoj linij pišemo **hash-bang** i putanju do programa koji treba da izvršava naš fajl. U slučaju bash srkipti to je `/bin/bash` (u root-u u direktorijumu bin se nalaze svi sistemski izvršni binarni falovi). U slučaju da želimo da npr. koristimo Python, i to možemo tako što pišemo `/bin/python` i onda nema potrebe da kucamo `python main.py`, već možemo direktno da porkrenemo `main.py`. 
 

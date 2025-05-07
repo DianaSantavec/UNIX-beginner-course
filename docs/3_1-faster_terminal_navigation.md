@@ -5,6 +5,10 @@ title: Terminal animacija
 
 <link rel="stylesheet" href="/UNIX-beginner-course/assets/css/custom.css">
 
+<div style="margin-bottom: 1em;">
+  <a href="/UNIX-beginner-course/" class="button-nav">⟵ Nazad na početak</a>
+</div>
+
 # Brža navigacija u terminalu
 
 ![Brza navigacija figura](../assets/diagrams/fast_terminal_navigation_figure.png)

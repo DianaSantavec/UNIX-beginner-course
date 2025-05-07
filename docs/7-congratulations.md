@@ -1,5 +1,9 @@
 <link rel="stylesheet" href="/UNIX-beginner-course/assets/css/custom.css">
 
+<div style="margin-bottom: 1em;">
+  <a href="/UNIX-beginner-course/" class="button-nav">⟵ Nazad na početak</a>
+</div>
+
 <h1>🎉 Čestitke! 🎉</h1>
 <p>Ovim je završena priprema za predavanje na seminaru. Cheatsheet je dostupan na ![ovom linku](../assets/cheat_sheet.pdf). Odmori se i spremi za interesantne vežbe sa ovim stvarima koje smo prešli ovde.</p>
 

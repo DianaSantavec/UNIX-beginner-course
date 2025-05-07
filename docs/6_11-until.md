@@ -1,5 +1,9 @@
 <link rel="stylesheet" href="/UNIX-beginner-course/assets/css/custom.css">
 
+<div style="margin-bottom: 1em;">
+  <a href="/UNIX-beginner-course/" class="button-nav">⟵ Nazad na početak</a>
+</div>
+
 #### `until`
 Sledeća petlja je `until`. Ova petlja se izvršava se dok uslov **nije ispunjen**, odnosno dok se uslov **ne ispuni** (više liči na `do-while` kod programskih jezika). Sintaksa je veoma slična `while` petlji:
 

@@ -1,5 +1,9 @@
 <link rel="stylesheet" href="/UNIX-beginner-course/assets/css/custom.css">
 
+<div style="margin-bottom: 1em;">
+  <a href="/UNIX-beginner-course/" class="button-nav">⟵ Nazad na početak</a>
+</div>
+
 # Sistem datoteka u Linuksu i rad sa njim
 
 Da bi mogli da radimo sa datotekama, potrebno je da razumemo strukturu sistema datoteka. Linuks sistemi koriste EXT4 sistem datoteka i on je stablaste strukture. U korenu je takozvani ```root``` direktorijum u oznaci ```/```. On sadrži ostale direktorijume od kojih ćemo istaći:

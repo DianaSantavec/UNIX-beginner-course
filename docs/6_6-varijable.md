@@ -1,5 +1,9 @@
 <link rel="stylesheet" href="/UNIX-beginner-course/assets/css/custom.css">
 
+<div style="margin-bottom: 1em;">
+  <a href="/UNIX-beginner-course/" class="button-nav">⟵ Nazad na početak</a>
+</div>
+
 ### Varijable
 
 Osim parametara, korisno nam je da imamo varijable u kojima bi pamtili stvari i unutar same skripte. Način definisanja varijabli je jednostavan, za početak ne definišemo tip varijable. Potrebno je samo da napišemo ime varijable i dodelimo joj vrednost. Na primer `ime="Petar"` je definisanje varijable `ime` i inicijalizovanje iste sa stringom `Petar`. Bitno je napomenuti da se **ne** piše razmak oko znaka jednakosti, u suprotnom će skripta vratiti grešku da komanda `ime varijable` nije pronađena, kao što je prikazano na slici ispod.

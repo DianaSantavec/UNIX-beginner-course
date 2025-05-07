@@ -1,5 +1,9 @@
 <link rel="stylesheet" href="/UNIX-beginner-course/assets/css/custom.css">
 
+<div style="margin-bottom: 1em;">
+  <a href="/UNIX-beginner-course/" class="button-nav">⟵ Nazad na početak</a>
+</div>
+
 ### Osnovne aritmetičke operacije
 Sintaksa za aritmetičke operacije i čuvanje njihovih vrednosti je malo komplikovanija. Same oznake aritmethičkih operacija su iste, odnosno `+`,`-`,`*`,`/`,`%`. Problem dolazi u upotrebi razmaka u zapisu, koji je veoma striktan. Bitno je odmah razumeti da je `[` zapravo komanda i iz tog razloga je neophodno voditi računa kada se sme uneti razmak, a kada ne, za razliku od većine programskih jezika.
 Sada ćemo proći kroz razne primere ovih kombinacija:
