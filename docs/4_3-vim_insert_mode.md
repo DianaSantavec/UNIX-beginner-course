@@ -9,14 +9,15 @@ title: Rad sa tekstom u fajlovima
   <a href="/UNIX-beginner-course/" class="button-nav">⟵ Nazad na početak</a>
 </div>
 
-### Insert mode
-Da bi ostale komande imale smisla, potrebno je da unesemo neki tekst. Da bi se prebacili u **insert mode** potrebno je da unesemo karakter `i` (insert) ili `a` (append) (**bez `:`**) i u donjem levom uglu će se pojaviti tekst `-- INSERT --`. Sada sve što unosimo se pojavljuje u našem editoru i postaje sadržaj fajla. Kada završimo sa kucanjem teksta, potrebno je da se vratimo u **command mode** da bi mogli da ga snimimo, ili da uradimo `undo` ili bilo koju drugu radnju. Insert mode napuštamo pritiskom na dugme `esc` i tada možete primetiti da je nestao `-- INSERT --` iz donjeg levog ugla. Ukoliko želite da uradite `undo`, potrebno je sada u **command mode-u** uneti `:undo` i videćete promene. 
+# Insert mode
 
+Da bi ostale komande imale smisla, potrebno je da unesemo neki tekst. Da bi se prebacili u **insert mode** potrebno je da unesemo karakter `i` (insert) ili `a` (append) (**bez `:`**) i u donjem levom uglu će se pojaviti tekst `-- INSERT --`. Sada sve što unosimo se pojavljuje u našem editoru i postaje sadržaj fajla. Kada završimo sa kucanjem teksta, potrebno je da se vratimo u **command mode** da bi mogli da ga snimimo, ili da uradimo `undo` ili bilo koju drugu radnju. Insert mode napuštamo pritiskom na dugme `esc` i tada možete primetiti da je nestao `-- INSERT --` iz donjeg levog ugla. Ukoliko želite da uradite `undo`, potrebno je sada u **command mode-u** uneti `:undo` i videćete promene. Ispod se nalazi kratak snimak koji prikazuje kako se pokreće `vim`, `help`, ulazak u `insert mode`, pisanje teksta, `undo` komanda i izlazak (bez čuvanja izmena jer je fajl opet prazan).
 
+![vim video](../assets/diagrams/vim.mkv)
 
 Kada na kraju želite da sačuvate izmene, potrebno je uneti `:write ime_fajla` (gde ime fajla ne mora imati ekstenziju u UNIX sistemima, ovo će detaljnije biti objašnjeno na predavanju, za sada samo koristite tako). U slučaju uspešnog upisa u fajl, u donjem levom uglu će se pojaviti ime fajla, `[NEW]` u slučaju novog fajla, broj linija i broj bajtova upisanih u njega.
 
-Ime fajla se može dati i prilikom samog pokretanja editora. Ukoliko kao parametar prosledimo ime fajla, pokušaće da ga otvori i ukoliko ne postoji, kreiraće taj fajl. Naravno, ukoliko u nov fajl se ništa ne doda i ne snimi se, `vim` neće napraviti prazan fajl.
+Ime fajla se može dati i prilikom samog pokretanja editora. Ukoliko kao parametar prosledimo ime fajla, pokušaće da ga otvori i ukoliko ne postoji, kreiraće taj fajl. Naravno, ukoliko u nov fajl se ništa ne doda i ne snimi se, `vim` neće napraviti prazan fajl. Tada za upotrebu `write` komande, nije potrebno navoditi i naziv fajla.
 
 U slučaju velikih fajlova, zamorno je pomerati kurzor karakter po karakter. Postoje skraćenice koje nam omogućavaju da se brže krećemo kroz tekstualni fajl i u nastavku će biti nabrojane neke od njih:
   * `H` - pomeranje kurzora na početak ekrana
@@ -33,6 +34,8 @@ U slučaju velikih fajlova, zamorno je pomerati kurzor karakter po karakter. Pos
   * `:3,5d` - brisanje linija od 3 do 5
 
 (*Napomena: ne očekuje se za predavanje da znate komande napamet, korisno je i mogu vam pomoći u vežbama da se naviknete na rad sa ovim editorom.*)
+
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new/?repo=dianasantavec/UNIX-beginner-course&devcontainer_path=.devcontainer/devcontainer.json)
 
 
 <div class="nav-buttons-wrapper">

@@ -9,7 +9,11 @@ title: Rad u terminalu
   <a href="/UNIX-beginner-course/" class="button-nav">⟵ Nazad na početak</a>
 </div>
 
-# Vežbe
+# Vežba
+
+Ovaj deo je bio više informativan. Iskoristi priliku da ponoviš komande iz prethodne sekcije i prilikom toga da koristiš kretanje kroz prethodne komande sa strelicom na gore i taster `tab` za autocomplete.
+
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new/?repo=dianasantavec/UNIX-beginner-course&devcontainer_path=.devcontainer/devcontainer.json)
 
 <div class="nav-buttons-wrapper">
   <div class="nav-left">

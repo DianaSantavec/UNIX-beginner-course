@@ -9,15 +9,17 @@ title: Rad sa tekstom u fajlovima
   <a href="/UNIX-beginner-course/" class="button-nav">⟵ Nazad na početak</a>
 </div>
 
-# Rad sa fajlovima
+# Kreiranje i prikazivanje fajlova bez tekstualnog editora
 
 ![touch figure](../assets/diagrams/touch_figure.png)
 
-## Kreiranje fajlova bez tekstualnog editora
 Pre nego što pređemo na upotrebu tekstualnog editora, korisno je napomenuti da se prazan fajl može napraviti i upotrebom komande `touch` i prikazati upotrebom komande `cat`. Kao parametar, obe komande primaju putanju do fajla, odnosno gde on treba da se nalazi. Primer je prikazan na slici ispod.
 
-*Napomena: komanda `cat` može i da popuni sadržaj fajla, ali to se ostavlja čitaocu da istraži*
+*Napomena: komanda `cat` može i da popuni sadržaj fajla, ali to se ostavlja čitaocu da istraži.*
 
+![touch i cat](../assets/diagrams/touch_i_cat.png)
+
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new/?repo=dianasantavec/UNIX-beginner-course&devcontainer_path=.devcontainer/devcontainer.json)
 
 <div class="nav-buttons-wrapper">
   <div class="nav-left">

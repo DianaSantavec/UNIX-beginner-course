@@ -9,12 +9,20 @@ title: Rad sa tekstom u fajlovima
   <a href="/UNIX-beginner-course/" class="button-nav">⟵ Nazad na početak</a>
 </div>
 
-## Vežba
+# Vežba
+* Napravi tekstualni fajl upotrebom `vim` editora
+* Upiši neki tekst
+* Probaj `undo` komandu
+* Dopiši još teksta
+* Sačuvaj fajl
+* Prikaži tekst upotrebom `cat` komande
+* Napravi novi direktorijum
+* Kopiraj kreirani fajl u nov direktorijum
 
+# Dodatno
+Bilo bi korisno isprobati kako radi copy-paste u `vim`-u.
 
-### Dodatno
-Bilo bi praktično isprobati kako radi copy-paste u `vim`-u.
-
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new/?repo=dianasantavec/UNIX-beginner-course&devcontainer_path=.devcontainer/devcontainer.json)
 
 <div class="nav-buttons-wrapper">
   <div class="nav-left">
