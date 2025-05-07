@@ -16,19 +16,20 @@ Da bi mogli da radimo sa datotekama, potrebno je da razumemo strukturu sistema d
   * direktorijum sa izvršnim fajlovima programa ```bin``` i `sbin`
   * root korisnika (administrator sistema sa svim pravima) `root`
   * direktorijum sa drugim korisnicima `home`
+
 Dalje svaki od ovih direktorijuma ima svoje podirektorijume i fajlove. Mi ćemo se fokusirati na `home` direktorijum. `home` direktorijum sadrži po direktorijum za svakog korisnika na sistemu. Svi vaši podaci će se nalaziti u `username` podirektorijumu smeštenom u `home`.
 
 Potrebno je da razumemo zapis putanje ovakvog sistema fajlova. Postoje dva tipa putanja: apsolutna i relativna.
 
-**apsolutna** putanja sadrži celu putanju od korenoge (`/`) direktorijuma do željenog. Na primer, ukoliko želimo da pristupimo Downloads direktorijumu korisnika `tux`, putanja bi izgledala ovako: `/home/tux/Downloads`. Bitno je obratiti pažnju na dve stvari u ovom primeru:
+**apsolutna** putanja sadrži celu putanju od korenog (`/`) direktorijuma do željenog. Na primer, ukoliko želimo da pristupimo `Filmovi` direktorijumu korisnika `petar`, putanja bi izgledala ovako: `/home/petar/Filmovi`. Bitno je obratiti pažnju na dve stvari u ovom primeru:
   1. Razdvajanje naziva direktorijuma ima istu oznaku kao i koreni direktorijum `/`, a ne whitespace
-  2. Kako je **bash** case-sensitive, `Downloads` i u putanji mora da sadrži veliko slovo `D`. Da je zapisano malim slovom, to bi predstavljalo drugi direktorijum, ukoliko takav postoji.
+  2. Kako je **bash** case-sensitive, `Filmovi` i u putanji mora da sadrži veliko slovo `F`. Da je zapisano malim slovom, to bi predstavljalo drugi direktorijum, ukoliko takav postoji.
 
-Na slici se može videti gde se direktorijum `Downloads` nalazi u sistemu datoteka.
+Na slici se može videti gde se direktorijum `Filmovi` nalazi u sistemu datoteka.
 
 ![Directory structure](../assets/diagrams/inicijalna_struktura_sistema_direktorijuma.svg)
 
-Uniks sistemi prate filozofiju "sve je fajl". Tako da komunikacija sa konektovanim uređajima se vrši preko fajlova, razni podaci o procesima su fajlovi, ali i sami direktorijumi. Na slici ispod se nalazi primer gde je direktorijum `ime` otvoren u tekstualnom editoru `vim`. Kao što može da se vidi iz strukture sistema datoteka pored, njegov sadržaj se nalazi u editoru. Jedina razlika koja postoji su dve linije `.` i `..`. Ovo su dva specijalna fajla koji su linkovi, `..` pokazuje na roditeljski direktorijum (osim za root `/` koji nema roditelja) i `.` je pokazivač na samog sebe. 
+Unix sistemi prate filozofiju "sve je fajl". Tako da se komunikacija sa konektovanim uređajima vrši preko fajlova, razni podaci o procesima su fajlovi, ali i **sami direktorijumi**. Na slici ispod se nalazi primer gde je direktorijum `petar` otvoren u tekstualnom editoru `vim` (kasnije ćemo naučiti kako se koristi). Kao što možemo da vidimo iz strukture sistema datoteka pored, njegov sadržaj se nalazi u editoru. Jedina razlika koja postoji su dve linije `.` i `..`. Ovo su dva specijalna fajla koji su linkovi, `..` pokazuje na roditeljski direktorijum (osim za root `/` koji nema roditelja) i `.` je pokazivač na samog sebe. 
 
 ![Vim Direktorijum](../assets/diagrams/vim_direktorijum.png)
 
@@ -37,7 +38,7 @@ Sada da ne bi kucali beskonačne redove iznova i iznova, možemo da skratimo na�
 ![Relativna putanja](../assets/diagrams/relativna_putanja.svg)
 
 
-Da bi mogli da uradimo nešto sa ovim sistemom datoteka, potrebno je da objasnimo osnovne komande za rad sa njima. **Komanda** se sastoji iz imena, opcija i parametara, kao što je prikazano na slici (komanda postoji, probaj da instaliraš i pokreneš :wink: ). Uvek je prva reč koja se napiše naziv komande, potom se razmakom odvajaju opcije (ako se prosleđuju) i parametri. Bitno je napomenuti da ukoliko naziv fajla ili direktorijuma ima razmak u sebi, mora se drugačije tretirati i to će biti objašnjeno kasnije. U suprotnom, shell će razmak tumačiti kao razmak između više parametara. Kraj komande, odnosno pokretanje iste se izvršava pritiskanjem enter-a, odnosno unosom nove linije.
+Da bi mogli da uradimo nešto sa ovim sistemom datoteka, potrebno je da objasnimo osnovne komande za rad sa njim. **Komanda** se sastoji iz imena, opcija i parametara, kao što je prikazano na slici (komanda postoji, probaj da instaliraš i pokreneš :wink: ). Uvek je prva reč koja se napiše naziv komande, potom se razmakom odvajaju opcije (ako se prosleđuju) i parametri. Bitno je napomenuti da ukoliko naziv fajla ili direktorijuma ima razmak u sebi, mora da se drugačije tretirata i to će biti objašnjeno kasnije. U suprotnom, shell će razmak tumačiti kao razmak između više parametara. Kraj komande, odnosno pokretanje iste se izvršava pritiskanjem tastera `enter`, odnosno unosom nove linije u terminal.
 
 ![Struktura komande](../assets/diagrams/struktura_komande.svg)
 
@@ -45,15 +46,15 @@ Da bi mogli da uradimo nešto sa ovim sistemom datoteka, potrebno je da objasnim
 Bitne komande za rad sa direktorijumima su:
 
   * `cd` - promena trenutnog direktorijuma
-  * `ls` - izlistati sadržaj direktorijuma
+  * `ls` - izlistavanje sadržaj direktorijuma
       * `tree` - lepši prikaz, ali se mora dodatno instalirati 
-  * `pwd` - ispiši putanju do trenutnog direktorijuma
-  * `mv` - premesti
-  * `cp` - kopiraj
-  * `mkdir` - napravi direktorijum
-  * `rm` - obriši
+  * `pwd` - ispis putanje do trenutnog direktorijuma
+  * `mv` - premeštanje
+  * `cp` - kopiranje
+  * `mkdir` - pravljenje direktorijuma
+  * `rm` - brisanje
 
-U nastavku ćemo preći jednu po jednu sa objašnjenjima.
+U nastavku ćemo preći jednu po jednu komandu sa objašnjenjima i primerima.
 
 <div class="nav-buttons-wrapper">
   <div class="nav-left">

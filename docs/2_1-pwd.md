@@ -9,7 +9,7 @@ title: Rad sa sistemom datoteka
   <a href="/UNIX-beginner-course/" class="button-nav">⟵ Nazad na početak</a>
 </div>
 
-# Ispis trenutne putanje - `pwd`
+# Ispis trenutne putanje - <code>pwd</code>
 
 ![Lost](../assets/diagrams/lost_figure.png)
 
