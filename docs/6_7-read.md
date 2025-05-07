@@ -1,11 +1,12 @@
 <link rel="stylesheet" href="/UNIX-beginner-course/assets/css/custom.css">
 
-### Učitavaje vrednosti od korisnika
-Nije jedini način prosleđivanja ulaznih podataka preko parametara. Komanda `read` nam omogućava da prikupimo ulaz od korisnika. Kao parametri, komandi se prosleđuje jedno ili više imena varijabli u koje treba da smesti vrednost. Ukoliko se prosledi samo jedna varijabla, sav unos do prvok `enter` će biti smešten u jednu varijablu, bez obzira da li je unet neki razmak bez navnodnika. Ukoliko se prosledi više od jedne varijable, ulaz će biti podeljen po razmacima, primeri su dati ispod.
-Od opcija, ima dve interesantne `-p` i -`s`. 
-  * `-p` nam omogućava da u istoj liniji damo i ispis za korisnika, bez da koristimo i `echo` komandu. Npr. `read -p 'Unesite korisničko ime': var_ime`
-  * `-s` služi kada se unosi šifra. Ukoliko ste imali potrebu do sada da unosite svoju šifru u terminlu, verovatno ste primetili da se ništa ne ispisuje, čak ni *. Ukoliko želite takav unos, prosledite ovaj parametar, npr `read -s -p 'Unesite šifru: ' var_password` i nakon pritiska `enter` unos će biti sačuvan u varijabli.
+### Učitavaje vrednosti od korisnika - `read`
+Sada kada znamo kako da sačuvamo vrednosti u varijable, potrebno je da vidimo kako možemo da učitamo vrednosti od korisnika, a da ne prosleđujemo ulaz kao parametar. Komanda `read` nam omogućava da prikupimo ulaz od korisnika. Ovaj komandi se kao parametri prosleđuju imena varijabli u koje treba da smesti vrednost. Ukoliko se prosledi samo jedna varijabla, sav unos do prvog pritiska tastera `enter` će biti smešten u jednu varijablu, bez obzira da li je unet neki razmak (iako se ne stave navodnici). Ukoliko se prosledi više od jedne varijable, ulaz će biti podeljen po razmacima. Kako ovo izgleda u praksi se može videti na primerima na slici ispod.
+Od opcija, ova komanda ima dve interesantne: `-p` i -`s`. 
+  * `-p` opcija nam omogućava da u istoj liniji damo i ispis za korisnika, bez da koristimo i `echo` komandu. Npr. `read -p 'Unesite korisničko ime': var_ime`
+  * `-s` služi da se očuva privatnost kada se unosi šifra. Ukoliko ste imali potrebu do sada da unosite svoju šifru u terminl, verovatno ste primetili da se ništa ne ispisuje, čak ni *. Ukoliko želite takav tip unosa, prosledite ovaj parametar komandi `read`. Npr `read -s -p 'Unesite šifru: ' var_password` neće ispisivati ništa dok korisnik kuca, a nakon pritiska tastera `enter`, unos će biti sačuvan u varijabli `var_password`.
 
+![read primer](../assets/diagrams/read.png)
 
 <div class="nav-buttons-wrapper">
   <div class="nav-left">
