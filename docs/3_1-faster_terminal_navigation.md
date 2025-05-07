@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Terminal animacija
+title: Rad u terminalu
 ---
 
 <link rel="stylesheet" href="/UNIX-beginner-course/assets/css/custom.css">

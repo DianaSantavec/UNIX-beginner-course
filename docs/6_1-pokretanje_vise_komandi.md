@@ -1,3 +1,8 @@
+---
+layout: default
+title: Skripte
+---
+
 <link rel="stylesheet" href="/UNIX-beginner-course/assets/css/custom.css">
 
 <div style="margin-bottom: 1em;">

@@ -1,4 +1,10 @@
+---
+layout: default
+title: Rad sa sistemom datoteka
+---
+
 <link rel="stylesheet" href="/UNIX-beginner-course/assets/css/custom.css">
+
 
 <div style="margin-bottom: 1em;">
   <a href="/UNIX-beginner-course/" class="button-nav">⟵ Nazad na početak</a>

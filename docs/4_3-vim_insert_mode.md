@@ -1,3 +1,8 @@
+---
+layout: default
+title: Rad sa tekstom u fajlovima
+---
+
 <link rel="stylesheet" href="/UNIX-beginner-course/assets/css/custom.css">
 
 <div style="margin-bottom: 1em;">
