@@ -9,10 +9,10 @@ title: Skripte
   <a href="/UNIX-beginner-course/" class="button-nav">⟵ Nazad na početak</a>
 </div>
 
-### Petlje
+# Petlje
 Poslednja bitna i fundamentalna stvar kod skripti su petlje. Postoje tri tipa petlji `while`, `until` i `for`, kao što smo sretali i u drugim programskim jezicima. Olakšavajuće je to da sintakse liče i jedna na drugu i na sintaksom `if` komande koju smo upoznali. Prva petlja koju ćemo preći je ... `while`.
 
-#### `while`
+# while
 Prosto, petlja se izvršava dok je uslov **ispunjen**. Za razliku od `if`, početak bloka se označava sa `do` i kraj sa `done`. Ovako bi izgledao jedan `while` blok:
 
 ```bash
@@ -22,9 +22,10 @@ do
 done
 ```
 
-
-## Vežba
+# Vežba
 Probaj da napišeš skriptu koja će 5 puta ispisati `hello` na ekran.
+
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new/?repo=dianasantavec/UNIX-beginner-course&devcontainer_path=.devcontainer/devcontainer.json)
 
 <div class="nav-buttons-wrapper">
   <div class="nav-left">

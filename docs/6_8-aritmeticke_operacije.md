@@ -9,7 +9,10 @@ title: Skripte
   <a href="/UNIX-beginner-course/" class="button-nav">⟵ Nazad na početak</a>
 </div>
 
-### Osnovne aritmetičke operacije
+# Osnovne aritmetičke operacije
+
+![aritmeticke operacije slika](../assets/diagrams/aritmeticke_operacije_dijagram.png)
+
 Sintaksa za aritmetičke operacije i čuvanje njihovih vrednosti je malo komplikovanija. Same oznake aritmethičkih operacija su iste, odnosno `+`,`-`,`*`,`/`,`%`. Problem dolazi u upotrebi razmaka u zapisu, koji je veoma striktan. Bitno je odmah razumeti da je `[` zapravo komanda i iz tog razloga je neophodno voditi računa kada se sme uneti razmak, a kada ne, za razliku od većine programskih jezika.
 Sada ćemo proći kroz razne primere ovih kombinacija:
 
@@ -35,8 +38,10 @@ echo "Suma sabiraka $prvi i $drugi je $sum"
 
 Isprobavanjem možete primetiti da će bilo koji ulaz biti prihvaćen, čak i karakteri, specijalni karakteri, decimalne vrednosti, bilo šta. Međutim, kao što je očekivano, program će se u tim situacijama ponašati se neočekivano. Može se desiti da  izbaciti grešku, ali na žalost može se desiti i da odradi *nešto*. Kontrola unosa ostaje na nama da vodimo računa, te je bitno da vidimo kako da upravljamo kontrolom toga programa.
 
-#### Zadatak :construction_worker:
+# Vežba :construction_worker:
 * Probaj da napišeš skriptu koja će oduzeti dva prosleđena parametra.
+
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new/?repo=dianasantavec/UNIX-beginner-course&devcontainer_path=.devcontainer/devcontainer.json)
 
 <div class="nav-buttons-wrapper">
   <div class="nav-left">

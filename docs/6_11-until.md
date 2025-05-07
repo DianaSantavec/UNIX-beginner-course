@@ -9,7 +9,7 @@ title: Skripte
   <a href="/UNIX-beginner-course/" class="button-nav">⟵ Nazad na početak</a>
 </div>
 
-#### `until`
+# until
 Sledeća petlja je `until`. Ova petlja se izvršava se dok uslov **nije ispunjen**, odnosno dok se uslov **ne ispuni** (više liči na `do-while` kod programskih jezika). Sintaksa je veoma slična `while` petlji:
 
 ```bash
@@ -19,8 +19,11 @@ do
 done
 ```
 
-## Vežba
+# Vežba
 Probaj sada da ponovo napišeš skriptu koja će 5 puta ispisati `hello` na ekran, ali upotrebnom `until` komande.
+
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new/?repo=dianasantavec/UNIX-beginner-course&devcontainer_path=.devcontainer/devcontainer.json)
+
 
 <div class="nav-buttons-wrapper">
   <div class="nav-left">

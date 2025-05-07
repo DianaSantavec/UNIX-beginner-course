@@ -10,7 +10,7 @@ title: Kraj
 </div>
 
 <h1>🎉 Čestitke! 🎉</h1>
-<p>Ovim je završena priprema za predavanje na seminaru. Cheatsheet je dostupan na ![ovom linku](../assets/cheat_sheet.pdf). Odmori se i spremi za interesantne vežbe sa ovim stvarima koje smo prešli ovde.</p>
+<p>Ovim je završena priprema za predavanje na seminaru. Cheatsheet je dostupan na [ovom linku](../assets/cheat_sheet.pdf). Odmori se i spremi za interesantne vežbe sa ovim stvarima koje smo prešli ovde.</p>
 
 <!-- Include confetti script -->
 <canvas id="confetti-canvas" style="position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:999;"></canvas>

@@ -13,7 +13,7 @@ title: Rad sa tekstom u fajlovima
 
 Da bi ostale komande imale smisla, potrebno je da unesemo neki tekst. Da bi se prebacili u **insert mode** potrebno je da unesemo karakter `i` (insert) ili `a` (append) (**bez `:`**) i u donjem levom uglu će se pojaviti tekst `-- INSERT --`. Sada sve što unosimo se pojavljuje u našem editoru i postaje sadržaj fajla. Kada završimo sa kucanjem teksta, potrebno je da se vratimo u **command mode** da bi mogli da ga snimimo, ili da uradimo `undo` ili bilo koju drugu radnju. Insert mode napuštamo pritiskom na dugme `esc` i tada možete primetiti da je nestao `-- INSERT --` iz donjeg levog ugla. Ukoliko želite da uradite `undo`, potrebno je sada u **command mode-u** uneti `:undo` i videćete promene. Ispod se nalazi kratak snimak koji prikazuje kako se pokreće `vim`, `help`, ulazak u `insert mode`, pisanje teksta, `undo` komanda i izlazak (bez čuvanja izmena jer je fajl opet prazan).
 
-![vim video](../assets/diagrams/vim.mkv)
+![vim video](../assets/diagrams/vim.mp4)
 
 Kada na kraju želite da sačuvate izmene, potrebno je uneti `:write ime_fajla` (gde ime fajla ne mora imati ekstenziju u UNIX sistemima, ovo će detaljnije biti objašnjeno na predavanju, za sada samo koristite tako). U slučaju uspešnog upisa u fajl, u donjem levom uglu će se pojaviti ime fajla, `[NEW]` u slučaju novog fajla, broj linija i broj bajtova upisanih u njega.
 

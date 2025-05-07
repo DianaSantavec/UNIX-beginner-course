@@ -9,9 +9,9 @@ title: Skripte
   <a href="/UNIX-beginner-course/" class="button-nav">⟵ Nazad na početak</a>
 </div>
 
-### Varijable
+# Varijable
 
-Osim parametara, korisno nam je da imamo varijable u kojima bi pamtili stvari i unutar same skripte. Način definisanja varijabli je jednostavan, za početak ne definišemo tip varijable. Potrebno je samo da napišemo ime varijable i dodelimo joj vrednost. Na primer `ime="Petar"` je definisanje varijable `ime` i inicijalizovanje iste sa stringom `Petar`. Bitno je napomenuti da se **ne** piše razmak oko znaka jednakosti, u suprotnom će skripta vratiti grešku da komanda `ime varijable` nije pronađena, kao što je prikazano na slici ispod.
+Osim parametara, korisno nam je da imamo varijable u kojima bi pamtili stvari i unutar same skripte. Način definisanja varijabli je jednostavan, za početak ne definišemo tip varijable. Potrebno je samo da napišemo ime varijable i dodelimo joj vrednost. Na primer `ime="Petar"` je definisanje varijable `ime` i inicijalizovanje iste sa stringom `Petar`. Bitno je napomenuti da se **ne** piše razmak oko znaka jednakosti, u suprotnom će skripta vratiti grešku da komanda `ime varijable` nije pronađena.
 
 Bitno je napomenuti da postoje i sistemske varijable i menjanje vrednosti njima će uticati na rad sistema. Konvencija je da se one pišu svim velikim slovima i neke poznate su:
   * `USER` - trenutni korisnik
@@ -21,6 +21,8 @@ Bitno je napomenuti da postoje i sistemske varijable i menjanje vrednosti njima 
 Vrednostima svih varijabli se pristupa upotrebom `$`, tako i ovim sistemskim. Ukoliko ispišete `echo $USER` videćete svoje korisničko ime. U slučaju naše variable `ime`, `echo $ime` će ispisati `Petar` na ekranu.
 
 ![razmak u inicijalizaciji varijabli](../assets/diagrams/razmak_definisanje_varijabli.png)
+
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new/?repo=dianasantavec/UNIX-beginner-course&devcontainer_path=.devcontainer/devcontainer.json)
 
 <div class="nav-buttons-wrapper">
   <div class="nav-left">

@@ -27,7 +27,7 @@ Ovaj sajt služi kao uvod u rad u UNIX/Linux okruženju. Steći ćete osnovno zn
     * [-rwxr-xr--`](docs/5_2-permisije_razjasnjene.html)
     * [Promena dozvola - chmod](docs/5_3-chmod.html)
     * [Vežba](docs/5_4-permisije_vezbe.html)
-- [Skripte](docs/6_1-pokretanje_vise_komandi.html)
+- [Skripte i pokretanje više komandi](docs/6_1-pokretanje_vise_komandi.html)
     * [Prazna skripta](docs/6_2-pisanje_prazne_skripte.html)
     * [Hello World](docs/6_3-hello_world.html)
     * [Promena direktorijuma](docs/6_4-promena_direktorijuma.html)
