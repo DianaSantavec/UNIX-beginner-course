@@ -1,7 +1,8 @@
 <link rel="stylesheet" href="/UNIX-beginner-course/assets/css/custom.css">
 
 #### `until`
-Izvršava se dok se uslov **ne ispuni** (više liči na do-while kod programskih jezika). Sintaksa je veoma slična:
+Sledeća petlja je `until`. Ova petlja se izvršava se dok uslov **nije ispunjen**, odnosno dok se uslov **ne ispuni** (više liči na `do-while` kod programskih jezika). Sintaksa je veoma slična `while` petlji:
+
 ```bash
 until [[ uslov ]]
 do
@@ -9,6 +10,7 @@ do
 done
 ```
 
+## Vežba
 Probaj sada da ponovo napišeš skriptu koja će 5 puta ispisati `hello` na ekran, ali upotrebnom `until` komande.
 
 <div class="nav-buttons-wrapper">

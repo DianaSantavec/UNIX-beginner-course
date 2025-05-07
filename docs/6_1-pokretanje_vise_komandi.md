@@ -2,6 +2,8 @@
 
 # Pokretanje više komandi
 
+![multiple commands](../assets/diagrams/multiple_commands_diagram.png)
+
 Kako je sada pređeno već više komandi, javlja se potreba da možemo da pokrećemo više komandi više puta. Da se ne bi kretali stalno kroz istoriju, ili ih ponovo unosili, možemo koristiti `;` ili `&&` da pokrenemo više komandi odjednom. Razlika između ove dve komande je u tome da li nam je potrebno da se izvrše sve komande u sekvenci ukoliko dođe do greške u jednoj od njih.
 
 `;` nam omogućava da bez obzira na to da li se desila greška, se sve komande izvrše. Zapis linije u tom slučaju je `komanda1 ; komanda2 ; komanda3`. 
