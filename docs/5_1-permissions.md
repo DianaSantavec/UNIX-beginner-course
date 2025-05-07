@@ -13,11 +13,12 @@ title: Permisije
 
 ![rwx figures](../assets/diagrams/rwx_figure.png)
 
-Kada ste isprobali prvi put `ls -l` za islistavanje fajlova, primetili ste neku gomilu random karaktera (npr. `-rwxr-xr--`) na početku i tada smo rekli da su to permisije. U ovoj sekciji ćemo objasniti detaljno šta koji karakter znači i kako da ih menjate i koristite.
+Kada ste isprobali prvi put `ls -l` za islistavanje sadržaja direktorijuma, primetili ste neku gomilu random karaktera (npr. `-rwxr-xr--`) na početku i tada smo rekli da su to permisije. U ovoj sekciji ćemo objasniti detaljno šta koji karakter znači i kako da ih menjate i koristite.
 
-## Značenje skraćenica
+# Značenje skraćenica
 
-Prvo je potrebno preći šta koji karakter označava, srećom ukoliko pričamo o fajlovima, značenja su slična onima koje srećemo u programskim jezicima kada im pristupamo. Bitno je primetiti njihova značenja za direktorijume.
+Prvo je potrebno preći šta koji karakter označava. Srećom ukoliko pričamo o fajlovima, značenja su slična onima koje srećemo u programskim jezicima kada im pristupamo. Bitno je primetiti njihova značenja za direktorijume.
+
 **r**
   * U slučaju fajlova označava da fajl može da se čita
   * Za direktorijume, karakter `r` znači da može da se izlista sadržaj direktorijuma
@@ -40,7 +41,3 @@ Sada kada znamo šta koji karakter označava, može preći na ceo zapis.
     <a href="5_2-permisije_razjasnjene.html" class="button-nav">Sledeća →</a>
   </div>
 </div>
-
-
-## 🚀 Pokreni odmah u Codespaces
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new/?repo=dianasantavec/UNIX-beginner-course&devcontainer_path=.devcontainer/devcontainer.json)

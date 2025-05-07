@@ -9,13 +9,15 @@ title: Permisije
   <a href="/UNIX-beginner-course/" class="button-nav">⟵ Nazad na početak</a>
 </div>
 
-## `-rwxr-xr--`
+# `-rwxr-xr--`
 
 ![owner figure](../assets/diagrams/owner_figure.png)
 
 Prvo je bitno primetiti da ovaj zapis uvek ima 10 karaktera, koji se mogu podeliti u 4 sekcije, kao što je prikazano na slici ispod. 
 
-Prvi karakter nam govori kakav fajl je u pitanju (jer je "sve fajl" po UNIX filozofiji). Najčešće opcije su:
+![rwx](../assets/diagrams/rwx.svg)
+
+Prvi karakter nam govori kakav fajl je u pitanju (jer je "sve fajl" u UNIX sistemu). Najčešće opcije su:
   * `d` - direktorijum
   * `-` - regularni fajl
   * `l` - simbolički link (*Napomena: šta su simbolički linkovi i kako se koriste će biti objašnjeno na predavanju*)
@@ -25,7 +27,9 @@ Još neke poznate oznake su:
   * b - block devide file
   * s - local socket file
   * p - named pipe
-Koje još skraćenice postoje, možete videti na sledećem linku: *https://linuxconfig.org/identifying-file-types-in-linux*
+
+
+Koje još skraćenice postoje, možete videti na ![sledećem linku](https://linuxconfig.org/identifying-file-types-in-linux)
 
 Ostalih 9 karaktera možemo podeliti u 3 seta:
 1. set dozvola za vlasnika

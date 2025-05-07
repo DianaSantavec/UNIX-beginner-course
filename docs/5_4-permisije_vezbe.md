@@ -11,7 +11,17 @@ title: Permisije
 
 # Vežba
 
-neka vežba
+* Napravi prazan fajl (*Pomoć: upotrebom komande `touch`*)
+* Napravi prazan direktorijum
+* Premesti fajl u direktorijum
+* Ukini fajlu read permisiju
+* Projbaj da pišeš u fajl
+* Izađi iz direktorijuma
+* Ukloni read permisiju direktorijumu
+* Pokušaj da izlistaš direktorijum
+* Ukloni direktorijum sa fajlom
+
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new/?repo=dianasantavec/UNIX-beginner-course&devcontainer_path=.devcontainer/devcontainer.json)
 
 <div class="nav-buttons-wrapper">
   <div class="nav-left">
