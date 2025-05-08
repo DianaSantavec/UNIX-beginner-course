@@ -9,11 +9,11 @@ title: Rad u terminalu
   <a href="/UNIX-beginner-course/" class="button-nav">⟵ Nazad na početak</a>
 </div>
 
-# Brža navigacija u terminalu
+# Prečice u terminalu
 
 ![Brza navigacija figura](../assets/diagrams/fast_terminal_navigation_figure.png)
 
-Sigurno ste primetili da nakon ovih vežbi ima mnogo više nepotrebnog teksta na terminalu. Da uklonimo taj tekst možemo da koristimo comandu `clear` ili kraće `ctrl + l` (`comand + l` na mac sistemima). Ukolko koristite temrinal emulator (a ne, npr tty), skrolovanjem na gore ćete videti i dalje test koji je bio ispisan. Ukoliko želite i njega da uklonite, koristite komandu `reset`. 
+Sigurno ste primetili da nakon ovih vežbi ima mnogo više nepotrebnog teksta na terminalu. Da uklonimo taj tekst možemo da koristimo komandu `clear` ili kraće `ctrl + l`. Ukoliko koristite terminal emulator (a ne, npr tty), skrolovanjem na gore ćete videti i dalje test koji je bio ispisan. Ukoliko želite i njega da uklonite, koristite komandu `reset`. 
 
 *Napomena: ova komanda nema veze sa resetovanjem sistema, za to se koristi `reboot`.*
 

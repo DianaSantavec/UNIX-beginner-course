@@ -10,8 +10,8 @@ title: Permisije
 </div>
 
 ## Promena dozvola - chmod
-Sada kada znamo šta znače, potrebno je razjasniti i kako možemo da ih menjamo i koristimo. Komanda za promenu dozvola je `chmod` (CHange file MODe bits). Kada se menjaju permisije, potrebno je dati odgvor na 3 pitanja:
-  * *Kome* (*whom*) menjamo permisiju?
+Sada kada znamo šta znače, potrebno je razjasniti i kako možemo da ih menjamo i koristimo. Komanda za promenu dozvola je `chmod` (CHange file MODe bits). Kada se menjaju dozvole, potrebno je dati odgovor na 3 pitanja:
+  * *Kome* (*whom*) menjamo dozvolu?
     - `u` (user), korisniku
     - `g` (group), grupi
     - `o` (other), ostalima
@@ -22,9 +22,9 @@ Sada kada znamo šta znače, potrebno je razjasniti i kako možemo da ih menjamo
   * *Šta* (*what*) radimo?
     - `-` Uklanjamo dozvolu
     - `+` Dajemo dozvolu
-    - `=` Postavljamo konkretno te permisije, a sve ostale uklanjamo
+    - `=` Postavljamo konkretno te dozvole, a sve ostale uklanjamo
 
-  * *Koju* permisiju (*which*)?
+  * *Koju* dozvolu (*which*)?
     - `r`
     - `w`
     - `x`
@@ -32,7 +32,7 @@ Sada kada znamo šta znače, potrebno je razjasniti i kako možemo da ih menjamo
 U nastavku se nalazi nekoliko primera `chmod` komandi sa efektima koje postižu.
 ![chmod slovni](../assets/diagrams/chmod_slova.png)
 
-Postoji još jedna notacija za menjanje permisija, a to je oktalna. U ovom slučaju, `r`, `w` i `x` se predstavljaju kao stepeni dvojke i koristi se njihova suma da predstavi permisije za korisnika, grupu i ostale. Vrednosti su dodeljene na sledeći način:
+Postoji još jedna notacija za menjanje dozvola, a to je oktalna. U ovom slučaju, `r`, `w` i `x` se predstavljaju kao stepeni dvojke i koristi se njihova suma da predstavi dozvole za korisnika, grupu i ostale. Vrednosti su dodeljene na sledeći način:
   * x = 2^0 = 1
   * w = 2^1 = 2
   * r = 2^2 = 4

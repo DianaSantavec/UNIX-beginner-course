@@ -17,7 +17,7 @@ Sam UNIX sistem je zapravo predstavljao više manjih specijalizovanih programa k
   * Design and build software, even operating systems, to be tried early, ideally within weeks. Don't hesitate to throw away the clumsy parts and rebuild them.
   * Use tools in preference to unskilled help to lighten a programming task, even if you have to detour to build the tools and expect to throw some of them out after you've finished using them.
 
-Razvoj UNIX sistema je podstakao razvoj sličnih sistema, međutim postojalo je par različitih verzija. Kako je bio potreban zajednički sistem, nastao je POSIX strandard (Portable Operating System Interface) koji je u početku specifikovao samo interfejs. Njega definiše IEEE i služi da održi kompatibilnost između operativnih sistema koji ga implementiraju. 
+Razvoj UNIX sistema je podstakao razvoj sličnih sistema, međutim postojalo je par različitih verzija. Kako je bio potreban zajednički sistem, nastao je POSIX standard (Portable Operating System Interface) koji je u početku specifikovao samo interfejs. Njega definiše IEEE i služi da održi kompatibilnost između operativnih sistema koji ga implementiraju. 
 
 Prirodno se postavlja pitanje, gde je tu onda Linuks? Linuks je zapravo GNU softver (GNU's not Unix) sa Linuks kernelom (kernel je program koji služi za komunikaciju nikog nivoa sa računarom). Linuks je POSIX-compliant te omogućava da se programi mogu pokretati i na drugim UNIX sistemima. Ponekad se pogrešno tumači kada se priča o Linuksu, gde se zapravo misli na pojedinačne distribucije (Ubuntu, Debian, Arch, Mint, itd.), te treba primetiti razliku.
 

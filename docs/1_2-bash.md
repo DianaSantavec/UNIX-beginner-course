@@ -13,7 +13,7 @@ Ostatak kursa možemo isključiti miša iz računara, jer ćemo učiti komande k
 # Terminal
 U nastavku teksta, a i dalje u radu ćete sretati pojam **terminal**. Terminal je zapravo komandna linija u koju unosimo bash komande za komunikaciju sa sistemom. 
 Bitno je znati da je on case-sensitive, te je bitno da li se komande i nazivi pišu velikim ili malim slovima.
-Prvo što ćemo videti kada otvorimo terminal je: ```username@hostname:location$```. Ovo se naziva **prompt** i može da se razlikuje od podešavanja samog sistema, ali standardno izgleda ovako. Delovi prompata su sledeći:
+Prvo što ćemo videti kada otvorimo terminal je: ```username@hostname:location$```. Ovo se naziva **prompt** i može da se razlikuje od podešavanja samog sistema, ali standardno izgleda ovako. Delovi prompat-a su sledeći:
   * `username` - ime korisnika
   * `hostname` - ime sistema u koji smo ulogovani
   * `location` - direktorijum u kom se nalazimo

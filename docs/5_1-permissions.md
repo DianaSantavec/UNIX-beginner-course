@@ -13,7 +13,7 @@ title: Permisije
 
 ![rwx figures](../assets/diagrams/rwx_figure.png)
 
-Kada ste isprobali prvi put `ls -l` za islistavanje sadržaja direktorijuma, primetili ste neku gomilu random karaktera (npr. `-rwxr-xr--`) na početku i tada smo rekli da su to permisije. U ovoj sekciji ćemo objasniti detaljno šta koji karakter znači i kako da ih menjate i koristite.
+Kada ste isprobali prvi put `ls -l` za izlistavanje sadržaja direktorijuma, primetili ste neku gomilu random karaktera (npr. `-rwxr-xr--`) na početku i tada smo rekli da su to dozvole. U ovoj sekciji ćemo objasniti detaljno šta koji karakter znači i kako da ih menjate i koristite.
 
 # Značenje skraćenica
 

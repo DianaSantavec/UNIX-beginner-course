@@ -27,7 +27,7 @@ Sada ako želimo da napišemo "hello world" program, potrebno je da uradimo sled
   * U prvu liniju upisujemo hash-bang sa putanjom do bash-a
   * U sledeću liniju upisujemo `echo` komandu sa željenim tekstom
   * Sačuvamo fajl
-  * Dodelimo permisiju za izvršavanje (upotrebom `chmod` komande)
+  * Dodelimo dozvolu za izvršavanje (upotrebom `chmod` komande)
   * I na kraju pokrenemo navodeći putanju (ili `./` ime skripte ako se nalazimo u tom direktorijumu)
 
 ```bash

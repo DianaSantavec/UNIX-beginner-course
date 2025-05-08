@@ -17,7 +17,7 @@ Da bi mogli da radimo sa datotekama, potrebno je da razumemo strukturu sistema d
   * root korisnika (administrator sistema sa svim pravima) `root`
   * direktorijum sa drugim korisnicima `home`
 
-Dalje svaki od ovih direktorijuma ima svoje podirektorijume i fajlove. Mi ćemo se fokusirati na `home` direktorijum. `home` direktorijum sadrži po direktorijum za svakog korisnika na sistemu. Svi vaši podaci će se nalaziti u `username` podirektorijumu smeštenom u `home`.
+Dalje svaki od ovih direktorijuma ima svoje poddirektorijume i fajlove. Mi ćemo se fokusirati na `home` direktorijum. `home` direktorijum sadrži po direktorijum za svakog korisnika na sistemu. Svi vaši podaci će se nalaziti u `username` poddirektorijumu smeštenom u `home`.
 
 Potrebno je da razumemo zapis putanje ovakvog sistema fajlova. Postoje dva tipa putanja: apsolutna i relativna.
 
@@ -38,7 +38,7 @@ Sada da ne bi kucali beskonačne redove iznova i iznova, možemo da skratimo na�
 ![Relativna putanja](../assets/diagrams/relativna_putanja.svg)
 
 
-Da bi mogli da uradimo nešto sa ovim sistemom datoteka, potrebno je da objasnimo osnovne komande za rad sa njim. **Komanda** se sastoji iz imena, opcija i parametara, kao što je prikazano na slici (komanda postoji, probaj da instaliraš i pokreneš :wink: ). Uvek je prva reč koja se napiše naziv komande, potom se razmakom odvajaju opcije (ako se prosleđuju) i parametri. Bitno je napomenuti da ukoliko naziv fajla ili direktorijuma ima razmak u sebi, mora da se drugačije tretirata i to će biti objašnjeno kasnije. U suprotnom, shell će razmak tumačiti kao razmak između više parametara. Kraj komande, odnosno pokretanje iste se izvršava pritiskanjem tastera `enter`, odnosno unosom nove linije u terminal.
+Da bi mogli da uradimo nešto sa ovim sistemom datoteka, potrebno je da objasnimo osnovne komande za rad sa njim. **Komanda** se sastoji iz imena, opcija i parametara, kao što je prikazano na slici (komanda postoji, probaj da instaliraš i pokreneš :wink: ). Uvek je prva reč koja se napiše naziv komande, potom se razmakom odvajaju opcije (ako se prosleđuju) i parametri. Bitno je napomenuti da ukoliko naziv fajla ili direktorijuma ima razmak u sebi, mora da se drugačije tretira i to će biti objašnjeno kasnije. U suprotnom, shell će razmak tumačiti kao razmak između više parametara. Kraj komande, odnosno pokretanje iste se izvršava pritiskanjem tastera `enter`, odnosno unosom nove linije u terminal.
 
 ![Struktura komande](../assets/diagrams/struktura_komande.svg)
 

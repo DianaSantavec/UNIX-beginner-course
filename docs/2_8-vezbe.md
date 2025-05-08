@@ -9,7 +9,7 @@ title: Rad sa sistemom datoteka
   <a href="/UNIX-beginner-course/" class="button-nav">⟵ Nazad na početak</a>
 </div>
 
-# Cheatsheet
+# Cheat-sheet
 Na ![ovom linku](../assets/cheat_sheet.pdf) se nalazi kratki cheat sheet sa ovim komandama i još nekim koje ćemo preći kasnije. Koristite ga za reference tokom rada vežbi.
 
 # Vežba
@@ -22,7 +22,7 @@ Na ![ovom linku](../assets/cheat_sheet.pdf) se nalazi kratki cheat sheet sa ovim
 * Preimenovati `Hello World` u `Hello_world`
 * Obrisati oba direktorijuma jednom komandom (*Napomena: nemoj zaboraviti da napustiš direktorijum pre brisanja*)
 
-Vežbe možete porkenuti u [![GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new/?repo=dianasantavec/UNIX-beginner-course&devcontainer_path=.devcontainer/devcontainer.json).
+Vežbe možete pokrenuti u [![GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new/?repo=dianasantavec/UNIX-beginner-course&devcontainer_path=.devcontainer/devcontainer.json).
 
 
 <div class="nav-buttons-wrapper">

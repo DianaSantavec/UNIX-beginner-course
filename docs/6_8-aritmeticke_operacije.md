@@ -13,7 +13,7 @@ title: Skripte
 
 ![aritmeticke operacije slika](../assets/diagrams/aritmeticke_operacije_dijagram.png)
 
-Sintaksa za aritmetičke operacije i čuvanje njihovih vrednosti je malo komplikovanija. Same oznake aritmethičkih operacija su iste, odnosno `+`,`-`,`*`,`/`,`%`. Problem dolazi u upotrebi razmaka u zapisu, koji je veoma striktan. Bitno je odmah razumeti da je `[` zapravo komanda i iz tog razloga je neophodno voditi računa kada se sme uneti razmak, a kada ne, za razliku od većine programskih jezika.
+Sintaksa za aritmetičke operacije i čuvanje njihovih vrednosti je malo komplikovanija. Same oznake aritmetičkih operacija su iste, odnosno `+`,`-`,`*`,`/`,`%`. Problem dolazi u upotrebi razmaka u zapisu, koji je veoma striktan. Bitno je odmah razumeti da je `[` zapravo komanda i iz tog razloga je neophodno voditi računa kada se sme uneti razmak, a kada ne, za razliku od većine programskih jezika.
 Sada ćemo proći kroz razne primere ovih kombinacija:
 
 1. `sum=$((1+2))`

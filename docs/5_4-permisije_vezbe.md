@@ -14,10 +14,10 @@ title: Permisije
 * Napravi prazan fajl (*Pomoć: upotrebom komande `touch`*)
 * Napravi prazan direktorijum
 * Premesti fajl u direktorijum
-* Ukini fajlu read permisiju
-* Projbaj da pišeš u fajl
+* Ukini fajlu read dozvolu
+* Probaj da pišeš u fajl
 * Izađi iz direktorijuma
-* Ukloni read permisiju direktorijumu
+* Ukloni read dozvolu direktorijumu
 * Pokušaj da izlistaš direktorijum
 * Ukloni direktorijum sa fajlom
 

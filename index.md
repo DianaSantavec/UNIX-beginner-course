@@ -16,7 +16,7 @@ Ovaj sajt služi kao uvod u rad u UNIX/Linux okruženju. Steći ćete osnovno zn
     * [Kreiranje direktorijuma - mkdir](docs/2_6-mkdir.html)
     * [Premeštanje - mv](docs/2_7-mv.html)
     * [Vežba](docs/2_8-vezbe.html)
-- [Brža navigacija u terminalu](docs/3_1-faster_terminal_navigation.html)
+- [Prečice u terminalu](docs/3_1-faster_terminal_navigation.html)
     * [Manual - man](docs/3_2-man.html)
     * [Vežbe](docs/3_3-vezbe.html)
 - [Rad sa fajlovima](docs/4_1-touch.html)
