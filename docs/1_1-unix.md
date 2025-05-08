@@ -7,6 +7,12 @@ title: Uvod
 <script defer data-domain="dianasantavec.github.io/unix-beginner-course" src="https://plausible.io/js/script.outbound-links.tagged-events.js"></script>
 <link rel="stylesheet" href="/UNIX-beginner-course/assets/css/custom.css">
 
+
+<div style="margin-bottom: 1em;">
+  <a href="/UNIX-beginner-course/" class="button-nav">⟵ Nazad na početak</a>
+</div>
+
+
 # Šta je UNIX i gde je tu Linuks?
 
 ![istorija](../assets/diagrams/history_diagram.png)
