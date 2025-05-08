@@ -5,8 +5,9 @@ title: UNIX kurs
 
 <link rel="stylesheet" href="/UNIX-beginner-course/assets/css/custom.css">
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<head>
 <script defer data-domain="dianasantavec.github.io/unix-beginner-course" src="https://plausible.io/js/script.outbound-links.tagged-events.js"></script>
+</head>
 
 # Dobrodošli u kurs UNIX komandi
 
