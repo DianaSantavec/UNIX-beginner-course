@@ -2,7 +2,7 @@
 
 # Dobrodošli u kurs UNIX komandi
 
-Ovaj sajt služi kao uvod u rad u UNIX/Linux okruženju. Steći ćete osnovno znanje komandi i rada sa njima, kao i znanje o pisanju skripti. Osmišljen je da vas pripremi za radionicu koja će se održati na seminaru..
+Ovaj sajt služi kao uvod u rad u UNIX/Linuks okruženju. Steći ćete osnovno znanje komandi i rada sa njima, kao i znanje o pisanju skripti. Osmišljen je da vas pripremi za radionicu koja će se održati na seminaru..
 
 ## Oblasti
 
@@ -35,7 +35,7 @@ Ovaj sajt služi kao uvod u rad u UNIX/Linux okruženju. Steći ćete osnovno zn
     * [Varijable](docs/6_6-varijable.html)
     * [Unos podataka](docs/6_7-read.html)
     * [Aritmetičke operacije](docs/6_8-aritmeticke_operacije.html)
-    * [Kontorla toka](docs/6_9-if.html)
+    * [Kontrola toka](docs/6_9-if.html)
     * [Petlje - while](docs/6_10-while.html)
     * [Petlje - until](docs/6_11-until.html)
     * [Petlje - for](docs/6_12-for.html)
