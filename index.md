@@ -1,3 +1,8 @@
+---
+layout: default
+title: UNIX kurs
+---
+
 <link rel="stylesheet" href="/UNIX-beginner-course/assets/css/custom.css">
 
 # Dobrodošli u kurs UNIX komandi
