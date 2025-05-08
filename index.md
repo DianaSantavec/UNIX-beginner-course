@@ -11,6 +11,7 @@ title: UNIX kurs
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', 'G-Q6NY1G1P9S');
+  sendEvent('permission_page')
 </script>
 
 # Dobrodošli u kurs UNIX komandi
