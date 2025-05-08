@@ -5,6 +5,14 @@ title: Uvod
 
 <link rel="stylesheet" href="/UNIX-beginner-course/assets/css/custom.css">
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-Q6NY1G1P9S');
+</script>
+
 ![Terminal](../assets/diagrams/temrinal.png)
 
 # Unix Shell

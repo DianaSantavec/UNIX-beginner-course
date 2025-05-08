@@ -5,6 +5,14 @@ title: UNIX kurs
 
 <link rel="stylesheet" href="/UNIX-beginner-course/assets/css/custom.css">
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-Q6NY1G1P9S');
+</script>
+
 # Dobrodošli u kurs UNIX komandi
 
 Ovaj sajt služi kao uvod u rad u UNIX/Linuks okruženju. Steći ćete osnovno znanje komandi i rada sa njima, kao i znanje o pisanju skripti. Osmišljen je da vas pripremi za radionicu koja će se održati na seminaru..

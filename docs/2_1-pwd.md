@@ -9,6 +9,14 @@ title: Rad sa sistemom datoteka
   <a href="/UNIX-beginner-course/" class="button-nav">⟵ Nazad na početak</a>
 </div>
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-Q6NY1G1P9S');
+</script>
+
 # Ispis trenutne putanje - pwd
 
 ![Lost](../assets/diagrams/lost_figure.png)
