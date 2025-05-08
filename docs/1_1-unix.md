@@ -9,7 +9,7 @@ title: Uvod
 
 ![istorija](../assets/diagrams/history_diagram.png)
 
-Unix je operativni sistem nastao 1960-ih godina. Bio je prvi portabilan operativni sistem pisan u programskom jeziku C, što je omogućavalo da se isti kod izvršava na više različitih računara. Pre njega, programi su se pisali specijalno za arhitekturu računara na kom su se i izvršavali, odnosno nisu bili portabilni. Kako je stalno prepravljanje koda predstavljalo problem, bilo je neophodno da se uvede neki standard.
+Unix je operativni sistem koji je nastao 1960-ih godina. Bio je prvi portabilan operativni sistem pisan u programskom jeziku C, što je omogućavalo da se isti kod izvršava na više različitih računara. Pre njega, programi su se pisali specifično za arhitekturu računara na kojoj su se izvršavali, što znači da nisu bili portabilni. Kako je stalno prepravljanje koda predstavljalo problem, bilo je neophodno da se uvede neki standard.
 
 Sam UNIX sistem je zapravo predstavljao više manjih specijalizovanih programa koji rešavaju jedan problem. Ovaj princip je poznat i kao UNIX filozofija i koristi se i danas u razvoju softvera. UNIX filozofija iz Bell System Tehnical Journal (Doug MCIlroy 1978) glasi:
   * Make each program do one thing well. To do a new job, build afresh rather than complicate old programs by adding new "features".

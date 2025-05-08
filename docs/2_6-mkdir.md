@@ -13,7 +13,8 @@ title: Rad sa sistemom datoteka
 
 ![mkdir figure](../assets/diagrams/mkdir_figure.png)
 
-`mkdir` je jednostavna komanda koja pravi direktorijum na željenoj putanji. Kao parametar se prosleđuje putanja koja na kraju sadrži naziv direktorijuma koji pravimo. Ukoliko se navede samo naziv direktorijuma, biće napravljen u trenutnom direktorijumu. Jedina bitna stvar je da, ukoliko ne postoji prosleđena putanja (odnosno nedostaje neki direktorijum), neće se izvršiti.
+`mkdir` je jednostavna komanda koja pravi direktorijum na željenoj putanji. Kao parametar se prosleđuje putanja koja na kraju sadrži naziv direktorijuma koji pravimo. Ukoliko se navede samo naziv direktorijuma, biće napravljen u trenutnom direktorijumu. Bitna napomena je da se komanda neće izvršiti ukoliko ne postoji prosleđena putanja (odnosno ako neki direktorijum u putanji nedostaje).
+
 
 Međutim, ukoliko želimo da napravimo sve direktorijume koji nedostaju u našoj putanji, to možemo uraditi tako što prosledimo opciju `-p`. Sa ovom opcijom, `mkdir` će napraviti sve roditeljske direktorijume koji nedostaju.
 

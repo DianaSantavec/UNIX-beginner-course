@@ -13,7 +13,7 @@ title: Skripte
 
 ![hello world](../assets/diagrams/hello_world.png)
 
-Komanda za ispis teksta na konzolu je `echo`. Možete je probati i u konzoli. Kao parametar prima tekst koji treba da se ispiše, npr `echo Hello world`. Od opcija najbitnije su `-n` i `-e`.
+Komanda za ispis teksta na terminalu je `echo`. Možete je probati i u konzoli. Kao parametar prima tekst koji treba da se ispiše, npr `echo Hello world`. Od opcija najbitnije su `-n` i `-e`.
   * Kako `echo` uvek dodaje novi red na kraju linije, `-n` omogućava da se to ne desi ukoliko postoji potreba. Možete probati u terminalu, videćete da se sa `-n` prompt ispisuje u istom redu kao i tekst koji ste prosledili.  
   * `-e` opcija nam omogućava da koristimo *backslash escapes* kao što su:
     - `\t` (tab)

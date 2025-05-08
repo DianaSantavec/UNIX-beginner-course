@@ -20,7 +20,7 @@ done
 ```
 
 # Vežba
-Probaj sada da ponovo napišeš skriptu koja će 5 puta ispisati `hello` na ekran, ali upotrebnom `until` komande.
+Pokušaj sada da ponovo napišeš skriptu koja će 5 puta ispisati `hello` na ekran, ali upotrebnom `until` komande.
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new/?repo=dianasantavec/UNIX-beginner-course&devcontainer_path=.devcontainer/devcontainer.json)
 

@@ -2,7 +2,7 @@
 
 # Dobrodošli u kurs UNIX komandi
 
-Ovaj sajt služi kao uvod u rad u UNIX/Linux okruženju. Steći ćete osnovno znanje komandi i rada sa njima, kao i znanje o pisanju skripti. Predviđen je da vas pripremi za radionicu koja će biti održana na seminaru.
+Ovaj sajt služi kao uvod u rad u UNIX/Linux okruženju. Steći ćete osnovno znanje komandi i rada sa njima, kao i znanje o pisanju skripti. Osmišljen je da vas pripremi za radionicu koja će se održati na seminaru..
 
 ## Oblasti
 

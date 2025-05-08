@@ -14,7 +14,7 @@ title: Permisije
 * Napravi prazan fajl (*Pomoć: upotrebom komande `touch`*)
 * Napravi prazan direktorijum
 * Premesti fajl u direktorijum
-* Ukini fajlu read dozvolu
+* Ukloni fajlu dozvolu za čitanje
 * Probaj da pišeš u fajl
 * Izađi iz direktorijuma
 * Ukloni read dozvolu direktorijumu

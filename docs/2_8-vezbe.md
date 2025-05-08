@@ -14,13 +14,13 @@ Na ![ovom linku](../assets/cheat_sheet.pdf) se nalazi kratki cheat sheet sa ovim
 
 # Vežba
 
-* Napraviti direktorijum `Hello World`
-* Ući u nov direktorijum
-* Napraviti poddirektorijum `poddirektorijum`
-* Izlistati roditeljski direktorijum
-* Izlistati roditeljski direktorijum sa sakrivenim fajlovima
-* Preimenovati `Hello World` u `Hello_world`
-* Obrisati oba direktorijuma jednom komandom (*Napomena: nemoj zaboraviti da napustiš direktorijum pre brisanja*)
+* Napravi direktorijum `Hello World`
+* Uđi u nov direktorijum
+* Napravi poddirektorijum `poddirektorijum`
+* Izlistaj roditeljski direktorijum
+* Izlistaj roditeljski direktorijum sa sakrivenim fajlovima
+* Preimenuj `Hello World` u `Hello_world`
+* Obriši oba direktorijuma jednom komandom (*Napomena: nemoj zaboraviti da napustiš direktorijum pre brisanja*)
 
 Vežbe možete pokrenuti u [![GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new/?repo=dianasantavec/UNIX-beginner-course&devcontainer_path=.devcontainer/devcontainer.json).
 

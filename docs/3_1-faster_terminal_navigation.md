@@ -13,7 +13,7 @@ title: Rad u terminalu
 
 ![Brza navigacija figura](../assets/diagrams/fast_terminal_navigation_figure.png)
 
-Sigurno ste primetili da nakon ovih vežbi ima mnogo više nepotrebnog teksta na terminalu. Da uklonimo taj tekst možemo da koristimo komandu `clear` ili kraće `ctrl + l`. Ukoliko koristite terminal emulator (a ne, npr tty), skrolovanjem na gore ćete videti i dalje test koji je bio ispisan. Ukoliko želite i njega da uklonite, koristite komandu `reset`. 
+Sigurno ste primetili da nakon ovih vežbi ima mnogo više nepotrebnog teksta na terminalu. Da uklonimo taj tekst možemo da koristimo komandu `clear` ili kraće `ctrl + l`. Ako koristite terminal emulator (a ne, npr tty), skrolovanjem na gore ćete videti i dalje test koji je bio ispisan. Ukoliko želite i taj ispis da uklonite, koristite komandu `reset`. 
 
 *Napomena: ova komanda nema veze sa resetovanjem sistema, za to se koristi `reboot`.*
 

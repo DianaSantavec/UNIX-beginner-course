@@ -10,7 +10,7 @@ title: Rad sa tekstom u fajlovima
 </div>
 
 # Vežba
-* Napravi tekstualni fajl upotrebom `vim` editora
+* Napravi tekstualni fajl koristeći `vim` editor
 * Upiši neki tekst
 * Probaj `undo` komandu
 * Dopiši još teksta
