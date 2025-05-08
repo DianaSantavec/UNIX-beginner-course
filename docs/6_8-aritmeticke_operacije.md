@@ -38,7 +38,7 @@ echo "Suma sabiraka $prvi i $drugi je $sum"
 
 Isprobavanjem možete primetiti da će bilo koji ulaz biti prihvaćen, čak i karakteri, specijalni karakteri, decimalne vrednosti, bilo šta. Međutim, kao što je očekivano, program će se u tim situacijama ponašati se neočekivano. Može se desiti da  izbaciti grešku, ali na žalost može se desiti i da odradi *nešto*. Kontrola unosa ostaje na nama da vodimo računa, te je bitno da vidimo kako da upravljamo kontrolom toga programa.
 
-# Vežba :construction_worker:
+# Vežba 👷
 * Probaj da napišeš skriptu koja će oduzeti dva prosleđena parametra.
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new/?repo=dianasantavec/UNIX-beginner-course&devcontainer_path=.devcontainer/devcontainer.json)

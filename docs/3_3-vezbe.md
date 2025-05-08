@@ -9,7 +9,7 @@ title: Rad u terminalu
   <a href="/UNIX-beginner-course/" class="button-nav">⟵ Nazad na početak</a>
 </div>
 
-# Vežba
+# Vežba 👷
 
 Ovaj deo je bio više informativan. Iskoristi priliku da ponoviš komande iz prethodne sekcije i prilikom toga da koristiš kretanje kroz prethodne komande sa strelicom na gore i taster `tab` za autocomplete.
 

@@ -12,7 +12,7 @@ title: Rad sa sistemom datoteka
 # Cheat-sheet
 Na ![ovom linku](../assets/cheat_sheet.pdf) se nalazi kratki cheat sheet sa ovim komandama i još nekim koje ćemo preći kasnije. Koristite ga za reference tokom rada vežbi.
 
-# Vežba
+# Vežba 👷
 
 * Napravi direktorijum `Hello World`
 * Uđi u nov direktorijum

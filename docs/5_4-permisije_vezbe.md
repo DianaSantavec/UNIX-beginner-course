@@ -9,7 +9,7 @@ title: Permisije
   <a href="/UNIX-beginner-course/" class="button-nav">⟵ Nazad na početak</a>
 </div>
 
-# Vežba
+# Vežba 👷
 
 * Napravi prazan fajl (*Pomoć: upotrebom komande `touch`*)
 * Napravi prazan direktorijum

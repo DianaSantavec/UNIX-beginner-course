@@ -38,7 +38,7 @@ Sada da ne bi kucali beskonačne redove iznova i iznova, možemo da skratimo na�
 ![Relativna putanja](../assets/diagrams/relativna_putanja.svg)
 
 
-Da bi mogli da uradimo nešto sa ovim sistemom datoteka, potrebno je da objasnimo osnovne komande za rad sa njim. **Komanda** se sastoji iz imena, opcija i parametara, kao što je prikazano na slici (komanda postoji, probaj da instaliraš i pokreneš :wink: ). Uvek je prva reč koja se napiše naziv komande, potom se razmakom odvajaju opcije (ako se prosleđuju) i parametri. Bitno je napomenuti da ukoliko naziv fajla ili direktorijuma ima razmak u sebi, mora da se drugačije tretira i to će biti objašnjeno kasnije. U suprotnom, shell će razmak tumačiti kao razmak između više parametara. Kraj komande, odnosno pokretanje iste se izvršava pritiskanjem tastera `enter`, odnosno unosom nove linije u terminal.
+Da bi mogli da uradimo nešto sa ovim sistemom datoteka, potrebno je da objasnimo osnovne komande za rad sa njim. **Komanda** se sastoji iz imena, opcija i parametara, kao što je prikazano na slici (komanda postoji, probaj da instaliraš i pokreneš 🔍). Uvek je prva reč koja se napiše naziv komande, potom se razmakom odvajaju opcije (ako se prosleđuju) i parametri. Bitno je napomenuti da ukoliko naziv fajla ili direktorijuma ima razmak u sebi, mora da se drugačije tretira i to će biti objašnjeno kasnije. U suprotnom, shell će razmak tumačiti kao razmak između više parametara. Kraj komande, odnosno pokretanje iste se izvršava pritiskanjem tastera `enter`, odnosno unosom nove linije u terminal.
 
 ![Struktura komande](../assets/diagrams/struktura_komande.svg)
 
