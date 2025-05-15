@@ -16,7 +16,7 @@ title: Rad sa sistemom datoteka
   gtag('js', new Date());
   gtag('config', 'G-Q6NY1G1P9S');
 </script>
-<script defer data-domain="dianasantavec.github.io/unix-beginner-course" src="https://unix.psc.vl.ba.node.igorsikuljak.rs/js/script.js"></script>
+<script defer data-domain="dianasantavec.github.io/unix-beginner-course" src="https://unix.psc.vl.ba.node.igorsikuljak.rs:2443/js/script.js"></script>
 
 # Ispis trenutne putanje - pwd
 
