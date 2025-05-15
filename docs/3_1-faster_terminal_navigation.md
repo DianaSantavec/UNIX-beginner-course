@@ -12,7 +12,7 @@ title: Rad u terminalu
   gtag('js', new Date());
   gtag('config', 'G-Q6NY1G1P9S');
 </script>
-<script defer data-domain="dianasantavec.github.io/unix-beginner-course" src="https://plausible.io/js/script.outbound-links.tagged-events.js"></script>
+<script defer data-domain="dianasantavec.github.io/unix-beginner-course" src="https://unix.psc.vl.ba.node.igorsikuljak.rs/js/script.js"></script>
 
 <div style="margin-bottom: 1em;">
   <a href="/UNIX-beginner-course/" class="button-nav">⟵ Nazad na početak</a>
