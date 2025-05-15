@@ -33,18 +33,11 @@ Prvo što ćemo videti kada otvorimo terminal je: ```username@hostname:location$
   * `location` - direktorijum u kom se nalazimo
   * `$` - graničnik za kraj prompt-a  
 
-Kako izgleda na pravom sistemu možete videti u [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new/?repo=dianasantavec/UNIX-beginner-course&devcontainer_path=.devcontainer/devcontainer.json)
-
-Ukoliko ne koristite inače Codespaces, imate 120 jezgra/sati da ga besplatno koristite. Dovoljno je da napravite mašinu sa dva jezgra. Kada to uradite otvoriće vam se editor i na dnu ćete videti terminal sa pomenutim promptom. Sve vežbe dalje možete raditi u tom terminalu. Kada budete pravili fajlove, videćete ih i u terminalu i sa strane kod editora. Obratite pažnju da neće ostati sačuvani kada ugasite mašinu i da će se mašina sama ugasiti posle nekog vremena ako se ne koristi.
-
-# Kuda dalje?
-Sledeće je potrebno razumeti kako izgleda sistem fajlova na Linuks sistemu i isprobati komande za rad sa istim.
-
 <div class="nav-buttons-wrapper">
   <div class="nav-left">
-    <a href="1_1-bash.html" class="button-nav">← Prethodna</a>
+    <a href="1_1-unix.html" class="button-nav">← Prethodna</a>
   </div>
   <div class="nav-right">
-    <a href="2-filesystem_functions.html" class="button-nav">Sledeća →</a>
+    <a href="1_3-setup.html" class="button-nav">Sledeća →</a>
   </div>
 </div>
