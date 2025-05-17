@@ -16,7 +16,7 @@ Kada se ulogujete jednom od ovih metoda, šifru možete promeniti tako što unes
 
 # Lokalno
 
-I na kraju ako želite da sve vežbe radite na svom sistemu, u slučaju da koristite Linux ili MacOS, samo pokrenite aplikaciju `Terminal` i možete dalje pratiti uputstva. U slučaju da koristite Windows, možete da koristite wsl. Ukoliko imate win10 noviju verziju ili win11, dosta je da u powershell unesete ```wsl --install```. Na sledećem linku se nalazi uputstvo i kako da se podesi nalog ![Setup wsl](https://learn.microsoft.com/en-us/windows/wsl/install).
+I na kraju ako želite da sve vežbe radite na svom sistemu, u slučaju da koristite Linux ili MacOS, samo pokrenite aplikaciju `Terminal` i možete dalje pratiti uputstva. U slučaju da koristite Windows, možete da koristite wsl. Ukoliko imate win10 noviju verziju ili win11, dosta je da u powershell unesete ```wsl --install```. Na sledećem linku se nalazi uputstvo i kako da se podesi nalog [Setup wsl](https://learn.microsoft.com/en-us/windows/wsl/install).
 
 
 # Kuda dalje?
