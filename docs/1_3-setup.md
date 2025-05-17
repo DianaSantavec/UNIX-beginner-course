@@ -14,11 +14,9 @@ Kako sve ovo izgleda na pravom sistemu možete videti u
 <a href="https://github.com/codespaces/new/?repo=dianasantavec/UNIX-beginner-course&devcontainer_path=.devcontainer/devcontainer.json"
    target="_blank"
    onclick="plausible('codespaces-button-click', { props: { repo: 'UNIX-beginner-course', source: 'github-badge' } })"
-   style="display: inline-block; padding: 10px 16px; background-color: #2c974b; color: white; border-radius: 6px; text-decoration: none; font-weight: bold;">
+   style="display: inline-block; padding: 0px 0px; background-color: #2c974b; color: white; border-radius: 6px; text-decoration: none; font-weight: bold;">
   <img src="https://github.com/codespaces/badge.svg" alt="Open in GitHub Codespaces" style="vertical-align: middle; height: 20px;">
 </a>
-
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new/?repo=dianasantavec/UNIX-beginner-course&devcontainer_path=.devcontainer/devcontainer.json)
 
 Ukoliko ne koristite inače Codespaces, imate 120 jezgra/sati da ga besplatno koristite i potrebno je samo da napravite GitHub nalog. Dovoljno je da napravite mašinu sa dva jezgra. Kada to uradite otvoriće vam se editor i na dnu ćete videti terminal sa pomenutim promptom. Sve vežbe dalje možete raditi u tom terminalu. Kada budete pravili fajlove, videćete ih i u terminalu i sa strane kod editora. Obratite pažnju da neće ostati sačuvani kada ugasite mašinu i da će se mašina sama ugasiti posle nekog vremena ako se ne koristi. Prednost je što možete da ga koristite na svim uređajima bez problema.
 
