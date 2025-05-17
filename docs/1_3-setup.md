@@ -8,9 +8,9 @@ Ukoliko ne koristite inače Codespaces, imate 120 jezgra/sati da ga besplatno ko
 
 # Server
 
-Možete da koristite i instancu podešenu na serveru. Da bi mu pristupili potrebno je da imate ssh. Ukoliko koristite Linux ili MacOS potrebno je da u terminal unesete ```ssh domen```. Nakon toga, pojaviće vam se polje za username, pa i password. Username je **ime_prezime** ošišanom latinicom, i šifra je ista. **Obratite pažnju** da se šifra neće ispisivati dok je unosite, čak i u vidu *.
+Možete da koristite i instancu podešenu na serveru. Da bi mu pristupili potrebno je da imate ssh. Ukoliko koristite Linux ili MacOS potrebno je da u terminal unesete ```ssh username@unix.rac.petnica.rs```. Nakon toga, pojaviće vam se polje za password. Username je **ime_prezime** ošišanom latinicom, i šifra je ime i prezime, bez razmaka, malim slovima i ošišanom latinicom. **Obratite pažnju** da se šifra neće ispisivati dok je unosite, čak i u vidu *. Primer: username: petar_petrovic i password: petarpetrovic.
 
-U slučaju da koristite windows, možete skinuti PuTTY (https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html). Kada ga pokrenete, u polje "Host Name (or IP address) unesite ```domen```  i kliknite na SSH i ```OPEN```. Nakon toga unesite username i password. Username je **ime_prezime** ošišanom latinicom, i šifra je ista. **Obratite pažnju** da se šifra neće ispisivati dok je unosite, čak i u vidu *.
+U slučaju da koristite windows, možete skinuti PuTTY (https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html). Kada ga pokrenete, u polje "Host Name (or IP address) unesite ```username@unix.rac.petnica.rs``` (gde username zamenite sa vašim), kliknite na SSH i ```OPEN```. Nakon toga unesite password (objašnjeno gore).
 
 Kada se ulogujete jednom od ovih metoda, šifru možete promeniti tako što unesete `passwd` i potom ispratite uputstvo. *Napomena: Ako promenite šifru, nemojte je zaboraviti jer ne može da se uradi recovery*.
 
