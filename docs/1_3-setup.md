@@ -1,6 +1,7 @@
-# Podešavanje
-
-# GitHub Codespaces
+---
+layout: default
+title: Uvod
+---
 
 <link rel="stylesheet" href="/UNIX-beginner-course/assets/css/custom.css">
 
@@ -10,11 +11,15 @@
   <a href="/UNIX-beginner-course/" class="button-nav">⟵ Nazad na početak</a>
 </div>
 
+# Podešavanje
+
+# GitHub Codespaces
+
 Kako sve ovo izgleda na pravom sistemu možete videti u 
 <a href="https://github.com/codespaces/new/?repo=dianasantavec/UNIX-beginner-course&devcontainer_path=.devcontainer/devcontainer.json"
    target="_blank"
    onclick="plausible('codespaces-button-click', { props: { repo: 'UNIX-beginner-course', source: 'github-badge' } })"
-   style="display: inline-block; padding: 0px 0px; background-color: #2c974b; color: white; border-radius: 6px; text-decoration: none; font-weight: bold;">
+   style="display: inline-block; padding: 0px 0px; background-color: #2c974b; color: white; border-radius: 0px; text-decoration: none; font-weight: bold;">
   <img src="https://github.com/codespaces/badge.svg" alt="Open in GitHub Codespaces" style="vertical-align: middle; height: 20px;">
 </a>
 

@@ -17,6 +17,8 @@ Ovaj sajt služi kao uvod u rad u UNIX/Linuks okruženju. Steći ćete osnovno z
 ## Oblasti
 
 - [Uvod u UNIX](docs/1_1-unix.html)
+    * [Bash](docs/1_2-bash.html)
+    * [Okruženje](docs/1_3-setup.html)
 - [Rad sa sistemom datoteka](docs/2-filesystem_functions.html)
     * [Ispis trenutne putanje - pwd](docs/2_1-pwd.html)
     * [Kretanje kroz direktorijume - cd](docs/2_2-cd.html)
